@@ -368,9 +368,9 @@ impl Parse for OpCode {
 }
 ```
 
-![op_checksig](assets/en/part3/8.webp)
-![op_hash160](assets/en/part3/9.webp)
-![op_push](assets/en/part3/10.webp)
+![op_checksig](assets/en/part3/6.webp)
+![op_hash160](assets/en/part3/7.webp)
+![op_push](assets/en/part3/8.webp)
 
 ### Challenges in Script Parsing
 
@@ -401,7 +401,7 @@ The use of compact blocks are currently used to enhance the efficiency of data t
 
 For consensus-critical applications, it is recommended to use existing libraries to avoid bugs and ensure security like [rust-bitcoin](https://docs.rs/bitcoin/latest/bitcoin/)  or [bitcoin-dev-kit](https://docs.rs/bdk/latest/bdk/). Implementing your own parser can be educational but also risky in production environments.
 
-![libraries](assets/en/part3/7.webp)
+![libraries](assets/en/part3/9.webp)
 
 ## 3. Efficiency and Security in Bitcoin Mining
 
@@ -415,7 +415,7 @@ Mining empty blocks can be more efficient for miners:
 
 Empty blocks are sometimes mined due to timing issues. Miners might not have received the full list of transactions by the time they start mining the next block, so they choose to mine an empty block instead.
 
-![empty block](assets/en/part3/11.webp)
+![empty block](assets/en/part3/10.webp)
 
 ### Malicious Mining of Empty Blocks
 
@@ -453,11 +453,11 @@ Bitcoin nodes are the backbone of the Bitcoin network. They connect to each othe
 
     - **Archival Nodes**: A subset of full nodes, archival nodes retain all blockchain data, making them valuable for historical analysis and debugging.
 
-    ![archival node](assets/en/part3/13.webp)
+    ![archival node](assets/en/part3/11.webp)
 
     - **Pruned Nodes**: Pruned nodes save disk space by keeping only a portion of the blockchain, eliminating older data that is no longer needed for validation.
 
-    ![pruned node](assets/en/part3/14.webp)
+    ![pruned node](assets/en/part3/12.webp)
 
 
 
@@ -469,7 +469,7 @@ Bitcoin Core is the most widely used full node implementation. It performs dual 
 - **Open-Source Nature**: The code is open-source, allowing developers to contribute and scrutinize its workings.
 - **Language**: Written in C++ with tests in Python, ensuring robust performance and reliability.
 
-![cli-gui](assets/en/part3/12.webp)
+![cli-gui](assets/en/part3/13.webp)
 
 #### Exploring Bitcoin Core
 
@@ -508,7 +508,7 @@ Beyond Bitcoin Core, there are several alternative node implementations:
 
 Implementing these alternatives comes with its own risks, particularly regarding the consensus rules. Deviating from established validation rules can lead to forks or inconsistencies. The Bitcoin Kernel project seeks to mitigate these risks by centralizing consensus code, ensuring uniformity across implementations.
 
-![implementation](assets/en/part3/15.webp)
+![implementation](assets/en/part3/14.webp)
 
 # Bitcoin Wallets and Security
 
@@ -552,15 +552,15 @@ Regardless of type, every Bitcoin wallet performs three fundamental functions:
 
 - Bitcoin wallets act as keychains, holding and generating cryptographic keys.
 
-![keychain](assets/en/part3/16.webp)
+![keychain](assets/en/part3/15.webp)
 
 - They monitor the blockchain for incoming transactions.
 
-![monitor](assets/en/part3/17.webp)
+![monitor](assets/en/part3/16.webp)
 
 - Create transactions by selecting unspent transaction outputs (UTXOs), setting inputs and outputs, and optimizing for privacy and fees.
 
-![tx_builder](assets/en/part3/18.webp)
+![tx_builder](assets/en/part3/17.webp)
 
 ### Reusability of Wallet Logic
 
