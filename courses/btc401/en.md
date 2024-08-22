@@ -840,7 +840,110 @@ Alekos Filini examines the protocols built on top of the Lightning Network, expl
 
 ![Video](https://youtu.be/22LadAWEMQo)
 
+## Introduction
+
 Ajelex focuses on the business aspect of Bitcoin mining, examining strategies for maintaining profitability in a competitive market. The discussion includes an analysis of operational costs, efficiency measures, and the economics driving the mining industry.
+
+## 1. Mining Complexity and Profitability Factors
+
+### Technical and Strategic Factors
+
+Mining complexity in the context of Bitcoin primarily involves the technical and strategic elements that determine the profitability of mining operations. It's crucial to understand that mining is not just a game of chance but a sophisticated process that requires careful planning and continuous optimization.
+
+### Key Profitability Factors
+
+![energy cost](assets/en/bonus/mining/1.webp)
+
+1. **Electricity Costs**: One of the most significant factors affecting mining profitability is the cost of electricity. In regions like France, electricity can be relatively expensive compared to countries like El Salvador, where lower costs provide a competitive edge for miners.
+2. **Hardware Efficiency**: The efficiency of mining hardware, measured by its hash rate and power consumption, plays a pivotal role. Advanced ASIC miners like the S19J Pro are far more efficient than older models such as the Antminer S9.
+3. **Time period**: Bitcoin mining encourages long-term planning.
+4. **BTC Price**: The BTC Price is essential to determine the mining profitability.
+5. **Network difficulty**: The network difficulty represents the amount of hashrate in average needed to mine a block in 10 minutes.
+6. **Strategic Tools**: Tools like [braiins.com](https://insights.braiins.com) are invaluable for calculating profitability and helping miners make data-driven decisions.
+
+### Practical Application
+
+From personal experience, I've even used mining to heat my apartment in France, creatively offsetting electricity costs while mining Bitcoin. This example underscores the practicality of integrating mining operations into everyday life for added benefits.
+
+### Bottlenecks in Mining
+
+Miners face three primary bottlenecks: hardware availability, energy access, and the capital required to sustain operations. The scarcity of ASICs due to high demand often leads to long wait times and inflated prices, further complicating the mining landscape.
+
+- Example of **Energy bottleneck**.
+    In 2021, the Chinese government banned mining within its territory, causing mining companies in China to lose access to energy. This resulted in a **50%** drop in the hashrate over two weeks.
+
+![hashrate drop](assets/en/bonus/mining/4.webp)
+
+---
+
+## 2. Evolution and Efficiency of Mining Hardware
+
+### Historical Evolution
+
+The journey of mining hardware has been monumental, starting from simple CPU mining to the highly specialized ASIC miners we use today.
+
+![evolution hardware](assets/en/bonus/mining/3.webp)
+
+1. **CPU Mining**: In the early days, mining was performed using regular computer processors (CPUs). This method was quickly outpaced as the network grew.
+2. **GPU Mining**: Graphics Processing Units (GPUs) provided a significant boost in mining efficiency, making CPUs obsolete for mining purposes.
+3. **FPGA Mining**: Field-Programmable Gate Arrays (FPGAs) offered even better performance and energy efficiency than GPUs.
+4. **ASIC Mining**: Application-Specific Integrated Circuits (ASICs) represent the pinnacle of mining hardware efficiency, designed specifically for mining operations with unparalleled performance.
+
+### Detailed Comparison: S19J Pro vs. Antminer S9
+
+- **S19J Pro**: Known for its high efficiency and reliability, the S19J Pro offers a superior hash rate with lower power consumption, making it ideal for large-scale operations.
+- **Antminer S9**: While older and less efficient, the Antminer S9 remains popular for smaller setups and hobbyists due to its affordability and decent performance.
+
+![s19j pro vs antminer s9](assets/en/bonus/mining/2.webp)
+
+### Mining Efficiency and Learning
+
+Mining not only provides financial rewards but also valuable hands-on experience. Acquiring KYC-free bitcoins through mining can be an attractive proposition for those concerned about privacy.
+
+### Advanced Tools and Techniques
+
+Aftermarket software can enhance the efficiency and functionality of mining hardware. Tools that offer optimization and auto-tuning capabilities ensure that each chip operates at maximum efficiency, balancing hash rate and power usage effectively.
+
+---
+
+## 3. Regulatory and Market Dynamics in Mining Operations
+
+### Regulatory Impact
+
+Regulation plays a significant role in shaping the mining landscape. For instance, the Chinese mining ban had profound effects on global mining operations, causing a significant drop in the network hash rate and leading to a redistribution of mining power across different regions.
+
+### Market Dynamics
+
+1. **Hardware Availability and Cost**: The price and availability of ASIC miners are influenced by Bitcoin's market price. High demand during bull markets results in scarcity and inflated prices.
+2. **Hash Value and Hash Price**: Understanding the distinction between hash value (satoshis earned per terahash per day) and hash price (monetary value of the hash rate) is essential. Both are impacted by network difficulty and Bitcoin's market price.
+
+### Mining Pools and Reward Mechanisms
+
+1. **Mining Pools**: By combining resources, mining pools provide more stable rewards, reducing the variance and risk associated with solo mining.
+2. **Reward Schemes**: Different reward mechanisms, like Pay-Per-Share (PPS) and proportional rewards, offer various risk and reward profiles for miners.
+    - **Pay per share**: Pay-Per-Share rewards miners for each valid share they submit, regardless of whether the pool finds a block. **Shares** are units of proof that miners have completed the required work, and the pool verifies these shares.
+
+    ![pps](assets/en/bonus/mining/6.webp)
+
+    - **Proportional**: It depends on the pool mining a block to distribute the reward equally to the contribution of the miner to the total hashrate of the pool.
+
+    ![prop](assets/en/bonus/mining/5.webp)
+
+### Future of Mining
+
+As block rewards diminish, miners will increasingly rely on transaction fees. This shift raises concerns about whether transaction fees alone will provide sufficient incentives for miners to continue securing the network.
+
+### Hosted Mining
+
+Hosted mining services can offer lower operational costs but come with risks such as lack of control and potential for fraud. Proper due diligence is necessary to mitigate these risks.
+
+### Security and Efficiency
+
+Advanced security protocols and the use of renewable energy not only enhance profitability but also contribute to the sustainable growth of the mining ecosystem.
+
+---
+
+In conclusion, the world of Bitcoin mining is a complex, multifaceted domain that requires a deep understanding of technical, strategic, regulatory, and market dynamics. Whether you're a seasoned miner or just starting, staying informed and adaptable is key to thriving in this ever-evolving field. Thank you for your attention, and I look forward to your questions and discussions.
 
 ## Understanding Joinmarket
 <chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
