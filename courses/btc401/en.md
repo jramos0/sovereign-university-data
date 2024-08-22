@@ -118,7 +118,64 @@ Hey guys, here is the link for the last lecture of the preparatory period about 
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 
-Peter Todd delves into the security considerations unique to Bitcoin, teaching developers how to adopt a security-first mindset. The lecture aims to instill a strong foundation in recognizing and mitigating potential threats in Bitcoin development based on a pratical exercice of expliciting the Threat Model of software for timestamping election.
+Welcome to today's lecture on **Security and Reliability**. Our objective is to explore the nuanced relationship between these two fundamental aspects of system design and application in real-world scenarios. 
+
+### Introduction to Security Thinking
+
+Security thinking is grounded in principles designed to protect systems from intentional attacks. It involves identifying potential threats and implementing measures to mitigate them. In contrast, reliability focuses on ensuring systems function correctly under specified conditions, accounting for probabilistic failures rather than deliberate attempts to breach security.
+
+### Relationship Between Security and Reliability
+
+While both security and reliability aim to maintain system integrity, their approaches differ significantly. Reliability engineering deals with the likelihood of system failures due to random events and often employs statistical methods to predict and mitigate these failures. On the other hand, security must consider the deliberate and intelligent nature of attacks, requiring a multi-layered defense strategy known as "defense in depth."
+
+### Security vs. Reliability
+
+A quintessential example of reliability engineering can be traced back to the 18th century with the construction of a bridge. The quality of steel used, including its composition and manufacturing process, critically influenced the bridge’s reliability. Engineers had to consider single points of failure and use probability and statistics to assess and ensure the bridge's dependability over time.
+
+![Image](assets/en/part2/1.webp)
+
+
+Unlike reliability, security deals with intentional threats. For instance, a 256-bit cryptographic key provides a mathematical guarantee of security due to the infeasibility of brute-forcing it. Security measures must account for different threat models, from physical tampering to sophisticated cyber-attacks.
+
+### Real-World Applications
+
+Consider the process of creating and storing Bitcoin keys using paper wallets. While paper wallets can be secure, they are susceptible to physical damage and tampering. Ensuring the integrity of such wallets requires tamper-evident methods and robust verification protocols.
+
+In another scenario, imagine an airport pickup where a driver uses a secret code to authenticate the passenger. This simple yet effective security measure prevents imposters from deceiving both parties.
+
+In Guatemala, timestamping election results played a critical role in ensuring the integrity of the electoral process. By using cryptographic methods to timestamp data, election officials could provide tamper-evident proof of the results' authenticity, deterring potential manipulators driven by significant financial incentives.
+
+![Image](assets/en/part2/2.webp)
+
+### Identifying and Mitigating Potential Threats
+
+Threat modeling is the process of identifying potential security threats and creating strategies to mitigate them. This involves understanding the system's environment, identifying possible attackers, and developing secure protocols based on assumptions and probabilistic analysis.
+
+### Creating Secure Protocols
+
+To safeguard elections, for instance, impartial oversight or cross-party monitoring can be implemented to ensure transparency and integrity. Cryptographic methods, such as timestamping and cross-verification, help in maintaining data authenticity and preventing tampering.
+
+### Trust Verification
+
+Trust verification can be illustrated with PGP (Pretty Good Privacy) verification. By verifying the fingerprints and signatures of PGP keys, users can establish the authenticity of digital identities. Similar practices are essential in verifying software integrity through hash matching (e.g., SHA-256).
+
+### Establishing Trust Pathways
+
+Building trust is not instantaneous; it requires linking multiple trust pathways and ensuring redundancy. Using HTTPS and blockchain-backed certificate transparency, for instance, ensures the authenticity of web sources, making it difficult for attackers to breach trust.
+
+### Incentives for Security
+
+Understanding the role of incentives is crucial in maintaining security. For example, Bitcoin’s security model relies on miners' incentives and network participants' validation, highlighting the importance of economic incentives in safeguarding digital ecosystems.
+
+### Securing Bitcoin Wallets
+
+Strategies for securing Bitcoin wallets include multi-signature setups and diversified storage. These methods ensure that even if one component is compromised, the overall security remains intact.
+
+### Validation Importance
+
+Finally, user validation is critical in maintaining a secure network. Each user’s role in validating transactions and verifying software and hardware components helps preserve the network’s integrity and thwart potential threats.
+
+In conclusion, comprehending and integrating security and reliability principles are essential in designing robust systems. By learning from historical examples, applying real-world strategies, and continuously validating trust, we can build systems that are both secure and reliable.
 
 ## Free and Open Source Software (FLOSS) in Bitcoin
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
@@ -127,19 +184,168 @@ Peter Todd delves into the security considerations unique to Bitcoin, teaching d
 
 The use of Free and Open Source Software (FLOSS) is critical in Bitcoin's ecosystem. Peter Todd explores the importance of FLOSS for Bitcoin, exploring the history of FLOSS and examining how Github allow us to collaboratively build open-source software like Bitcoin.
 
+### Nature and Importance of Software
+
+Software, at its core, is a collection of code and data that instructs computing devices on how to perform specific tasks. Unlike hardware, which requires physical materials and manufacturing processes to replicate, software can be easily copied and distributed at virtually no cost. This fundamental difference plays a crucial role in the proliferation and development of software.
+
+One of the key distinctions between software and hardware is the concept of open-source. While open-source hardware exists, it is not as prevalent due to the complexities involved in duplicating physical objects. In contrast, open-source software thrives because of the ease of replication and distribution. Open-source software allows anyone to view, modify, and distribute the code, fostering a collaborative environment that accelerates innovation and problem-solving.
+
+The legal framework governing software primarily revolves around copyright laws. These laws grant the creator of the software exclusive rights to use, modify, and distribute their work. However, open-source licenses provide a mechanism to share these rights with the public, under specific conditions. This legal structure is essential in understanding the dynamics of software distribution and modification.
+
+In summary, software's nature as easily replicable code and data, coupled with the legal mechanisms provided by open-source licenses, underscores its critical importance in the modern digital landscape. This framework not only drives innovation but also ensures that software can be freely shared and improved upon by the global community.
+
+### History of Free Software Movement
+
+The Free Software Movement has its roots in the early 1980s, primarily driven by Richard Stallman's vision of software freedom. Frustrated by the restrictive nature of proprietary software, Stallman embarked on a mission to create software that users could freely use, modify, and share. This led to the founding of the Free Software Foundation (FSF) in 1985.
+
+One of Stallman's significant contributions was the development of the GNU Project, aiming to create a free Unix-like operating system. GNU, which stands for "GNU's Not Unix," provided many essential components of a fully free operating system. However, it lacked a kernel, the core part of the operating system.
+
+The gap was filled by Linus Torvalds' creation of the Linux kernel in 1991. Torvalds' kernel, combined with the GNU components, resulted in a fully functional free operating system known as GNU/Linux. This collaboration between Stallman's philosophical commitment to software freedom and Torvalds' practical contribution exemplifies the power of the open-source approach.
+
+![Image](assets/en/part2/3.webp)
+
+The Free Software Movement has profoundly impacted the software industry, promoting the idea that software should be free for all to use, modify, and share. Its principles have laid the foundation for many of the open-source projects and communities that thrive today.
+
+### Economics and Funding in Open Source
+
+Funding and sustaining open-source projects present unique challenges and opportunities. Unlike proprietary software, which generates revenue through sales and licensing fees, open-source projects often rely on alternative funding models. 
+
+One successful example is Bitcoin Core, a critical part of the Bitcoin infrastructure. Developers working on Bitcoin Core are often funded through grants, donations, and sponsorships from organizations that benefit from the project's success. This model allows developers to focus on improving the software without the constraints of traditional commercial funding.
+
+![Image](assets/en/part2/4.webp)
+
+Another prominent example is the Linux operating system. Many companies, such as IBM, Red Hat, and Intel, contribute to the development of Linux because their products and services depend on a robust and secure operating system. These companies provide financial support, contribute code, and offer resources to maintain and enhance the Linux ecosystem.
+
+Open-source licenses, such as the MIT, GPL, and AGPL, also play a crucial role in the economic dynamics of open-source software. Permissive licenses like MIT allow for more flexible use of the code, including commercialization. In contrast, copyleft licenses like GPL ensure that any derivative work must also be open-source, fostering a collaborative environment.
+
+![Image](assets/en/part2/5.webp)
+
+In conclusion, the economics of open-source software are driven by community contributions, corporate sponsorships, and innovative funding models. These mechanisms ensure the sustainability and continuous improvement of open-source projects, benefiting both developers and users.
+
 ## Cryptography in Bitcoin
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
 ![Video](https://youtu.be/4Fw9xS7JlVU)
 
-Adam Gibson takes participants through the cryptographic underpinnings of Bitcoin from a mathematical perspective. The session covers the essential cryptographic functions that are present in Bitcoin, like hashes and their security, merkle trees, identity protocols and signature, discrete logs and elliptic curves.
+Welcome! Today, we will dive into the crucial aspects of cryptography that every Bitcoin developer should know. We'll focus on foundational concepts and practical applications without overwhelming you with excessive theoretical details. The primary goal is to equip you with the knowledge to understand, implement, and troubleshoot cryptographic mechanisms in Bitcoin effectively.
+
+### Core Cryptographic Concepts for Bitcoin Developers
+
+In this section, we’ll delve into the key cryptographic concepts essential for Bitcoin developers, including hash functions, Merkle trees, digital signatures, and elliptic curves.
+
+![Image](assets/en/part2/6.webp)
+
+**Hash Functions**: A hash function takes an input and produces a fixed-length string of bytes. In Bitcoin, hash functions are fundamental for data integrity and security. Cryptographic hash functions must be efficient, generate seemingly random outputs, and produce fixed-length outputs regardless of input size. They are used for file integrity checks, ensuring that data has not been altered maliciously.
+
+![Image](assets/en/part2/7.webp)
+
+**Security Properties**: Cryptographic hash functions must adhere to several security properties. Pre-image resistance ensures that it is computationally infeasible to reverse-engineer the original input from the hash output. Second pre-image resistance means it should be difficult to find a different input that produces the same hash output. Collision resistance ensures that it is improbable to find two different inputs that yield the same hash output.
+
+**Merkle Trees**: A Merkle tree is a data structure that enables efficient and secure verification of large data sets. Data items are hashed in pairs, with the resulting hashes combined iteratively to form a single root hash. In Bitcoin, Merkle trees are crucial in block creation and transaction verification, particularly for Simplified Payment Verification (SPV) clients and in Taproot (Mast).
+
+![Image](assets/en/part2/8.webp)
+
+**Digital Signatures (ECDSA)**: The Elliptic Curve Digital Signature Algorithm (ECDSA) is used to ensure authenticity and integrity in Bitcoin transactions. It involves generating a signature using a private key that can be verified using the corresponding public key. Key concepts include understanding finite fields, discrete logarithms, and the importance of nonces.
+
+**Elliptic Curves**: Elliptic curves are used in public key cryptography due to their efficiency and security. The security of elliptic curve cryptography relies on the difficulty of solving the discrete logarithm problem.
+
+![Image](assets/en/part2/9.webp)
+
+### Practical Cryptographic Applications and Security Practices in Bitcoin
+
+In this section, we will explore the application of these concepts in real-world Bitcoin development and the best security practices to follow.
+
+**Cryptography = Danger**: Cryptography is a double-edged sword. While it protects against accidental data damage and malicious actions, incorrect implementation can lead to severe vulnerabilities. Developers must deeply understand cryptographic mechanisms to ensure both secure implementation and the ability to troubleshoot potential issues. For example, SHA-2's 256-bit output ensures preimage attacks require around 2^256 work, with collision resistance around 2^128 work.
+
+![Image](assets/en/part2/10.webp)
+
+**Merkle Tree Applications**: Understanding the logarithmic proof size and ensuring careful tree design is essential to avoid flaws, such as hash duplication in transaction verification. Merkle trees are used in block creation, transaction verification, and enhancements like Taproot.
+
+**Public Key Cryptography**: Discrete logarithms and finite fields are fundamental in cryptographic calculations in Bitcoin. Challenge-response protocols are used to verify knowledge of a private key without revealing it.
+
+![Image](assets/en/part2/11.webp)
+
+**Security Implications**: Historical examples show significant financial losses due to nonce reuse. Understanding the importance of generating unique nonces is crucial. Using trusted libraries like LibSecP256k1 ensures robust and secure cryptographic operations.
+
+**Elliptic Curve Cryptography (ECC)**: Signature schemes have evolved from identity protocols to schemes like Schnorr signatures, currently used in Bitcoin (BIP 340). Knowledge of elliptic curves and finite field arithmetic ensures secure cryptographic implementations.
+
+**General Advice for Developers**: Cryptographic protocols must undergo thorough peer reviews. Developers must be precise and fully understand every step of cryptographic procedures. Awareness of common pitfalls in cryptographic implementations can prevent significant vulnerabilities.
+
+**Elliptic Curves in Cryptography**: Key tweaking and security are important topics, such as modifying a public key using an additional private key while ensuring security. Bitcoin's specific elliptic curve, SECP256K1, and its parameters (P and N) are fundamental to its implementation.
+
+
+### Conclusion
+
+In this lecture, we've explored the fundamental cryptographic concepts that underpin the security and functionality of Bitcoin. From the critical roles of hash functions, Merkle trees, and digital signatures to the intricate mathematics of elliptic curve cryptography, these elements form the backbone of Bitcoin's decentralized network. Understanding these concepts isn't just about grasping the theory—it's about recognizing the practical implications and potential pitfalls in real-world development.
+
+As Bitcoin developers, it's essential to approach cryptographic implementations with caution and precision. The security of the Bitcoin network relies heavily on the correct and secure application of these cryptographic principles. Whether you're verifying transactions, designing new features, or ensuring the integrity of the blockchain, a deep knowledge of cryptography will enable you to build more robust, secure, and innovative solutions within the Bitcoin ecosystem.
+
+By mastering these concepts and adhering to best practices, you'll be well-equipped to contribute effectively to the ongoing development of Bitcoin, ensuring its resilience and security for the future.
 
 ## Bitcoin's Governance Model
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
 ![Video](https://youtu.be/KSpKwTFSOdc)
 
-Peter Todd discusses Bitcoin's governance model, providing insights into how decisions are made within the Bitcoin community and how this decentralized approach influences the protocol's development and stability. Notably he explores how different type of changes can lead to Soft or Hard Forks, how the governance difference between policy change and consensus rules, and what is the game of politics of change in Bitcoin.
+Governance in the context of Bitcoin refers to the framework and processes by which decisions and changes are made within the Bitcoin protocol and its community. Unlike traditional governance systems that might involve elected officials or hierarchical structures, Bitcoin's governance is decentralized, involving various stakeholders such as developers, miners, and users. This decentralized governance ensures that no single entity has unilateral control over the protocol, which helps maintain its integrity and security. Decisions within Bitcoin are typically made through a process of broad consensus, where changes must be widely accepted by the community to be implemented.
+
+### Nature of Bitcoin
+
+Bitcoin is a digital currency that operates on a consensus protocol, a set of rules agreed upon by the network participants to ensure uniformity and functionality. At its core, Bitcoin is a decentralized ledger known as a blockchain, where transactions are recorded and verified by network nodes. Full nodes, which store the entire history of the Bitcoin blockchain, play a crucial role in maintaining the integrity of this ledger. Other types of nodes, such as archival nodes, pruned nodes, and SPV (Simplified Payment Verification) nodes, also contribute to the network in various ways. The consensus protocol ensures that all these nodes agree on the state of the blockchain, making Bitcoin robust against censorship and fraud.
+
+### Preventing Changes 
+
+Governance in Bitcoin is vital to prevent arbitrary or malicious changes to the protocol. This is achieved through a consensus mechanism that requires broad agreement among the community. Developers with programming knowledge play a significant role in proposing changes, but these changes must be accepted by the wider community to be implemented.
+
+Bitcoin Core and alternate implementations have maintainers who oversee the development and upkeep of the software. These maintainers are responsible for merging code changes, ensuring that they adhere to the consensus rules and do not introduce vulnerabilities.
+
+### Soft Forks vs Hard Forks
+
+Soft forks are changes that tighten the existing rules of the Bitcoin protocol, making some previously valid transactions invalid. They are backward-compatible, meaning that non-upgraded nodes will still recognize the new rules. An example of a soft fork is the fix for the overflow bug in 2010, which prevented the creation of money out of thin air.
+
+Hard forks are changes that loosen the existing rules, allowing new types of transactions. These are not backward-compatible, meaning that non-upgraded nodes will not recognize the new rules. An example of a hard fork might be needed for the Year 2106 problem to ensure Bitcoin continues functioning beyond this date.
+
+![Image](assets/en/part2/12.webp)
+
+![Image](assets/en/part2/13.webp)
+
+### Examples of Governance
+
+Several real-world examples illustrate Bitcoin's governance in action. The overflow bug fix in 2010 was a soft fork that addressed a critical flaw. The Year 2106 problem will likely require a hard fork to address its implications. The transition from the longest chain to the most work chain reflects a significant governance decision that affected how consensus is achieved.
+
+Bitcoin's governance also addresses real-world changes in the protocol's usage. For instance, the introduction of ordinals and inscriptions illustrates how protocol changes can fail to censor transactions. Similarly, the implementation of Full RBF (Replace-By-Fee) altered transaction replacement procedures without changing consensus rules.
+
+### Motivations for Change and Consensus
+
+Changes to Bitcoin can be driven by various motivations, such as fixing critical bugs, introducing new features, or limiting changes due to economic or political reasons. These motivations often lead to debates within the community about what constitutes a bug versus a feature and the overall impact on the network.
+
+Bitcoin's consensus mechanism makes it inherently political, requiring broad agreement for changes to be accepted. This political aspect is crucial for maintaining the network's decentralized nature and ensuring that any modifications are in the community's best interest.
+
+Running nodes can validate Bitcoin rules and participate in the network, even with different communication protocols like Blockstream Satellite. This highlights the separation between Bitcoin's consensus mechanism and the data communication methods used by the network. The economic significance of nodes, particularly those run by large entities like Binance, can influence the adoption of changes. These entities have substantial economic interests in the network and can sway decisions by running influential nodes.
+
+### Block Size Debate
+
+The block size debate was a significant governance issue, revolving around whether to increase Bitcoin's block size. This controversy was resolved with the implementation of SegWit, a soft fork that increased the effective block size and enabled the Lightning Network.
+
+![Image](assets/en/part2/14.webp)
+
+### Forced Changes and Majority Rule
+
+There have been legal attempts to compel Bitcoin developers to alter the blockchain rules for personal benefit, such as lawsuits by Craig Wright. These attempts highlight the challenges and ethical considerations involved in Bitcoin governance.
+
+In Bitcoin, majority rule plays a vital role. If 60% of miners adopt a new rule, their blocks will be rejected by those running the original Bitcoin Core, leading to a split. An example of a failed hard fork due to lack of community support is Bitcoin Satoshi's Vision (BSV).
+
+Let's briefly review some important concepts.
+
+**Forced Soft Fork**: The concept of implementing restrictive rules to change Bitcoin can lead to further splits and governance issues. This approach illustrates the complexities and potential conflicts within the Bitcoin community.
+
+**51% Attack**: A 51% attack describes a scenario where a majority of hashing power could attack Bitcoin by mining empty blocks. This could effectively kill the network unless the community adopts new consensus rules to address the attack.
+
+**Check-Lock-Time-Verify (CLTV)**: Check-Lock-Time-Verify (CLTV) is an example of a governance change implemented as a soft fork. CLTV ensures that transactions are only valid after a certain time, which is useful for payment channels and backup keys. This change tightened the rules using an opcode that previously did nothing.
+
+### Governance and Change
+
+In conclusion, Bitcoin's future and changes are determined by the collective will of its users. Significant changes require broad consensus, reflecting the decentralized and political nature of Bitcoin's governance.
 
 # Layer One Concepts
 <partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
