@@ -151,6 +151,85 @@ Peter Todd discusses Bitcoin's governance model, providing insights into how dec
 
 Adam Gibson breaks down the various components of a Bitcoin node. The chapter focuses on the role each component plays in maintaining the network's functionality and integrity. In particularly he focuses on why we should run a bitcoin node, what does a bitcoin node do, and how the different components of a bitcoin node function.
 
+### Introduction to Bitcoin Nodes
+Understanding the role of Bitcoin nodes is critical for anyone involved in the Bitcoin network. Running a Bitcoin node allows users to validate transactions, participate in consensus, and maintain control over their privacy. This lecture delves into why running a Bitcoin node is beneficial and how it contributes to the overall security and decentralization of the Bitcoin network.
+
+### Why Run a Bitcoin Node?
+Running a Bitcoin node is essential for several reasons:
+1. **Verification**: By running a node, you can verify transactions yourself, ensuring that the Bitcoin you receive is valid without relying on third parties.
+2. **Participation in Consensus**: Nodes play a crucial role in determining the rules of the Bitcoin network, thus participating in consensus helps maintain the integrity and security of the blockchain.
+3. **Privacy and Control**: Running your own node ensures that you do not have to rely on external nodes, which could compromise your privacy by tracking your transactions and wallet balance.
+
+### What does a Bitcoin node do?
+- **Keeps a list of peers**: Nodes must find and connect to other nodes in the network to exchange information.
+- **Receives and sends valid transactions and blocks**: Bitcoin nodes are responsible for propagating valid transactions and blocks across the network.
+- **Keeps history of blocks and heaviest chain**: Nodes store their own copy of the blockchain, which allows them to validate the authenticity of transactions and blocks.
+- **Maintains list of valid candidates; mempool**: Nodes must keep a list of possible transaction candidates in the mempool to be included in blocks.
+
+![nodes network](assets/en/part3/18.webp)
+
+**NOTE**: The mempool is a temporary storage area for transactions that have been validated but not yet included on a block.
+
+## Node Components
+
+### Bitcoin Core Modules
+
+![Bitcoin core modules](assets/en/part3/19.webp)
+
+- **Peer discovery**: Peer discovery is the process by which a node finds other nodes to connect to.
+- **Validation engine**: The validation engine is responsible for checking the validity of transactions and blocks according to the network's rules.
+- **RPC (Remote Procedure Call)**: Bitcoin Core includes an RPC interface that allows external applications, such as wallets, to interact with the node.
+- **Storing blocks and Chain State**: Bitcoin Core can store the whole Blockchain or not, whether it's an archival or pruned node. It also stores the current state of the network (The UTXO set) on disk.
+
+### What can we remove?
+- **Miner**: Most Bitcoin nodes do not participate in mining due to the high computational power required.
+- **RPC (Server)**: Bitcoin Core implements a JSON-RPC interface that can be accessed using the command-line helper bitcoin-cli.
+- **Wallet (disablewallet)**: If you prefer to use an external wallet, you can disable the wallet functionality in Bitcoin Core. This allows you to manage your private keys separately.
+- **Mempool (blocksonly)**: For users looking to minimize bandwidth usage, running a "blocksonly" node can be a solution where the node only processes blocks, ignoring transactions.
+
+## Chain State
+
+### Where are the coins?
+The coins are not stored in addresses; they reside in UTXOs, which represent all outputs of transactions that haven't been spent. You can retrieve this information with the command:
+
+```Bash
+bitcoin-cli gettxoutsetinfo
+```
+
+![utxoset info command](assets/en/part3/20.webp)
+
+We can audit that the number of Bitcoins is correct.
+
+### For each UTXO, chainstate has:
+- Txid.
+- Output index.
+- Which block the UTXO is in.
+- Whether it is a coinbase UTXO.
+
+**IMPORTANT**: Transactions are not the same as UTXOs.
+
+![Txs and UTXOs](assets/en/part3/21.webp)
+
+## Mempool
+It's a list of unconfirmed transactions in each node, which are called candidate transactions. Stored in RAM for quick access and it's not part of the consensus.
+
+## Security Considerations for Bitcoin Nodes
+Security is paramount when running a Bitcoin node. Here are some key considerations to keep in mind:
+### Avoiding Centralization
+Relying on a single source for blockchain data, such as downloading all blocks from a central server, poses significant risks. To maintain the decentralized nature of Bitcoin, nodes should connect to multiple peers and validate the data they receive.
+
+### Preventing Isolation Attacks
+Isolation attacks occur when a node is tricked into connecting to a limited set of peers, allowing an attacker to feed it incorrect data. By connecting to a diverse set of peers and verifying the data received, nodes can protect themselves against these attacks.
+
+### Managing Peer Connections
+Nodes must carefully manage their peer connections to ensure they are not connecting to malicious actors. This includes maintaining a list of banned peers who have exhibited suspicious behavior and regularly updating the peer list to avoid relying on a small group of nodes.
+
+### Importance of the UTXO Set
+The UTXO set represents the current state of Bitcoin, listing all unspent transaction outputs. It is crucial for validating transactions and ensuring that coins are not spent more than once. Keeping this set small and easily accessible is important for maintaining the efficiency of the network.
+
+## Conclusion
+Running a Bitcoin node is a powerful way to participate in the Bitcoin network, providing you with the ability to verify transactions, maintain privacy, and contribute to the security and decentralization of the blockchain. Whether you choose to run a full node or customize your setup by pruning the blockchain or disabling certain components, understanding the core functions and security considerations of a Bitcoin node will empower you to make informed decisions and contribute to the ongoing evolution of Bitcoin.
+
 ## Bitcoin's Data Structures
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
