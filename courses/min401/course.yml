@@ -1,0 +1,30 @@
+topic: mining
+subtopic: mining
+level: beginner
+hours: 50
+requires_payment: true
+paid_price_euros: 457
+paid_price_dollars: 500
+paid_description: |
+  The Bitcoin Mining Mastery Program of the Plan ₿ Network, as described in the curriculum
+  - Access to live lectures during the whole program 
+  - Access to replays, resources, and exercises
+  - Access to private chats with teachers
+  For any questions please reach contact@planb.network
+paid_video_link: https://www.youtube.com/watch?v=MNf97XgBdTc
+paid_start_date: 20240109
+paid_end_date: 20243110
+
+professors:
+  - diamond-jar
+
+contributors:
+  - rabbit-hole
+  - another-satoshi
+original_language: en
+proofreading:
+  en:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 0
