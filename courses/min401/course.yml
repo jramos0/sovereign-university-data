@@ -21,3 +21,12 @@ professors:
 contributors:
   - rabbit-hole
   - another-satoshi
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7348
