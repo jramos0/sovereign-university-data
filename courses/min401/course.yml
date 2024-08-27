@@ -21,10 +21,3 @@ professors:
 contributors:
   - rabbit-hole
   - another-satoshi
-original_language: en
-proofreading:
-  en:
-    last_contribution:
-    urgency: 1
-    contributors_id:
-    reward: 0
