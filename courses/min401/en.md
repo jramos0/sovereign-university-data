@@ -46,48 +46,58 @@ Lugano (CH)
 +++
 
 # The miner (mining facilities)
-<partId>bf8412df-71bb-4de4-8188-63805eb743be</partId>
+<partId>c5a877e8-8103-48c8-9894-0c8c037a9615</partId>
+
 
 
 # From source energy to consumers
-<partId>04de8da4-d2fb-4888-a720-ff343e2e3880</partId>
+<partId>ceff10c6-855e-47d2-b4b2-c58b8b169594</partId>
+
 
 
 
 # Inner working Pools
-<partId>4c61216f-1fbf-487f-ab0d-82675409c281</partId>
+<partId>0b5b4b42-1f5d-483f-a3f3-c2ce099084c6</partId>
+
 
 
 # Mining protocol
-<partId>3faa4917-80e4-4ba1-9a4c-ddcdfccc9125</partId>
+<partId>f34872ad-c3bf-4e75-8cb3-f12ba5cb9114</partId>
+
 
 
 
 # Communications
-<partId>deb15b9b-2428-4d8c-9291-fe6cd5c69196</partId>
+<partId>3c510add-9acc-41d0-a825-eda15e4fe5b7</partId>
+
 
 
 
 # History of mining pool
-<partId>b3ebe75a-4c3c-4e5d-bd23-f1eda68dd1d6</partId>
+<partId>df3d0356-e735-432a-866e-0ff11c308c49</partId>
+
 
 
 
 # Investment in mining
-<partId>f4ff2988-f627-4310-8f8b-ee335b22f3eb</partId>
+<partId>8b3b7cc1-d9bb-4831-9988-fcc0a0c94e84</partId>
+
 
 
 
 # Geopolitical powers and mining industry
-<partId>9a4bcf23-5b62-43cf-992e-81b1c36c611e</partId>
+<partId>e374f420-915d-43e9-8b44-28d8ce6f8e87</partId>
+
 
 
 
 # Game theory on mining history Moira FOSS
-<partId>0666905b-68ae-42b6-8966-f98d417c2e9e</partId>
+<partId>3804508d-90f9-491b-bfd2-9ec648ecb6e3</partId>
+
 
 
 
 # Guest Star Lectures
-<partId>272b050a-db00-41fb-bd0e-972c6d2188fe</partId>
+<partId>4d779caf-92a4-4f8e-a03b-550569fd06ab</partId>
+
 
