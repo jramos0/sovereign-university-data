@@ -1098,7 +1098,7 @@ _分支定界法_（BNB），通常被昵称为“Murch's algorithm”，以其�
 
 如果你想学习如何标记你的UTXO，我们已经创建了一个关于现有主要比特币钱包软件的完整教程：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC和关键识别
 
@@ -1817,11 +1817,11 @@ Whirlpool在设计时考虑了两个重要要求：
 
 在下一章中，我们将发现什么是“匿名集”（anonsets），如何计算这些指标，以及它们如何帮助我们估计coinjoin周期的有效性。
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## 匿名集
 
@@ -1884,7 +1884,7 @@ CoinJoin的效用在于它能够通过将您的币浸入一组无法区分的币
 
 正如我们在本章中所看到的，只有当coinjoins的结构具有一定的同质性时，才能计算匿名集。而确切地说，在下一章中，我们将发现如何在比特币交易中量化这种同质性，无论它是coinjoin还是更传统的交易。
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## 熵
 
@@ -2119,7 +2119,7 @@ $$
 不幸的是，随着Samourai的创始人被逮捕，这些工具目前无法使用。
 现在我们已经详细讨论了coinjoins，我们将在我们培训的最后一部分探索比特币上可用的其他隐私技术。我们将检查payjoins、特定的交易类型伪coinjoins、静态地址协议，以及旨在增强隐私的措施，不仅在交易层面上，而且在节点网络层面上。
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # 理解其他高级隐私技术的关键点
 
@@ -2198,9 +2198,9 @@ payjoin最先进的实现只有Samourai Wallet上的Stowaway。然而，由于�
 
 使用payjoin的难点在于它依赖于商家的参与。作为顾客，如果商家不支持payjoin，使用payjoin是不可能的。这在购买过程中增加了额外的难度：不仅找到接受比特币的商家很复杂，如果还寻找支持payjoins的商家，那就更加复杂了。
 一种解决方案是使用引入链分析歧义的交易结构，而不需要收款人的合作。这将允许我们在不依赖商家主动参与的情况下，提高我们支付的隐私性。这正是我们将在下一章中研究的内容。
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 支付迷你-Coinjoins
 
@@ -2311,9 +2311,9 @@ Stonewall和Stonewall x2交易都可以在Samourai Wallet应用程序和Sparrow 
 
 在下一章中，我们将研究另一种隐私技术，这种技术相对不为人知，但是作为我们已经研究的内容的补充非常有用。
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
 
 ## Ricochets
 
@@ -2377,7 +2377,7 @@ Ricochet 本质上涉及将比特币发送给自己。完全可以在任何钱�
 
 在接下来的章节中，我们将探讨不同的秘密财产转移技术。这些方法与我们迄今为止审查的方法在操作和结果上有着根本的不同。
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## 秘密财产转移
 
@@ -2601,7 +2601,16 @@ m/47'/0'/0'/
 ![BTC204](assets/notext/66/6.webp)
 
 尽管这些机器人在BIP47框架内没有特定的技术功能，但它们通过提供易于识别的视觉身份，在促进用户之间的互动中发挥作用。
-在本章接下来关于BIP47的部分，我们将详细检查其工作原理，特别强调所使用的加密方法。要完全理解这些有些技术性的解释，首先了解HD钱包的结构、密钥派生过程以及基于椭圆曲线的加密基本原则是必要的。如果您希望深入了解这些概念，Plan ₿网络上还提供了另一门免费课程：[CRYPTO 301](https://planb.network/en/courses/crypto301)。我仍然建议您跟随它们，因为理解BIP47的技术工作原理将使您更容易理解我们将在接下来的章节中讨论的其他类似提议。
+
+---
+*在本章关于BIP47的接下来的部分中，我们将详细探讨其工作原理，特别关注所使用的加密方法。要完全掌握这些稍显技术性的解释，首先需要了解HD钱包的结构、密钥派生过程以及基于椭圆曲线的加密原理。如果您希望进一步深入了解这些概念，Plan ₿ Network提供了一个免费的培训课程：*
+
+https://planb.network/courses/cyp201
+
+*我强烈建议您参加，因为理解BIP47的技术功能将使您更容易理解我们将在后续章节中讨论的其他类似提议。*
+
+---
+
 
 ### 可重用支付代码
 
@@ -3222,7 +3231,7 @@ Bob可以以与Alice发送给他支付相同的方式退款给Alice。角色颠�
 
 ![BTC204](assets/en/66/26.webp)
 _非常感谢[Fanis Michalakis](https://x.com/FanisMichalakis)对启发本章写作的文章进行审查和提供宝贵的专家建议！_
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## 静默支付
 

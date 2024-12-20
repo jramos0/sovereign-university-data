@@ -1057,7 +1057,7 @@ Tất cả các phương pháp tự động lựa chọn UTXO này có thể hi�
 
 ### Hướng dẫn về gán nhãn UTXO
 
-Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/utxo-labelling).
+Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52).
 
 ## KYC và xác định danh tính của chủ khoá
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -2487,7 +2487,15 @@ Những avatar này cũng có thể được biểu diễn dưới dạng hình 
 
 Mặc dù những robot này không có chức năng kỹ thuật cụ thể nào trong khuôn khổ của BIP47, chúng đóng vai trò trong việc tạo điều kiện cho các tương tác giữa người dùng bằng cách cung cấp một danh tính hình ảnh dễ nhận biết.
 
-Trong các phần tiếp theo của chương được dành riêng cho BIP47 này, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, và nhấn mạnh đặc biệt vào các phương pháp mật mã học được sử dụng. Để hiểu đầy đủ những giải thích kỹ thuật này, điều cần thiết là phải hiểu trước cấu trúc của ví HD - ví phân cấp tất định, các quy trình phát sinh khóa, và các nguyên tắc cơ bản của mật mã học dựa trên đường cong e líp. Nếu bạn muốn tìm hiểu sâu hơn về những khái niệm này, một khóa học miễn phí khác có sẵn trên Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Tôi vẫn khuyên bạn nên theo dõi chúng, vì việc hiểu rõ cơ chế kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.
+---
+*Trong các phần tiếp theo của chương này dành riêng cho BIP47, chúng ta sẽ xem xét chi tiết cách nó hoạt động, với trọng tâm đặc biệt vào các phương pháp mã hóa được sử dụng. Để hiểu đầy đủ các giải thích có phần kỹ thuật này, điều quan trọng là phải hiểu trước cấu trúc của ví HD, quy trình dẫn xuất khóa và các nguyên tắc cơ bản của mật mã dựa trên đường cong elliptic. Nếu bạn muốn tìm hiểu sâu hơn về các khái niệm này, có một khóa học miễn phí khác có sẵn trên Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Tôi khuyến nghị bạn nên tham gia, vì việc hiểu cách thức hoạt động kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hơn rất nhiều khi nắm bắt các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.*
+
+---
+
 ### Mã thanh toán có thể sử dụng lại
 
 Như đã đề cập trước đó, mã thanh toán có thể sử dụng lại nằm ở độ sâu 3 của ví HD, làm cho nó tương đương với một `xpub`, cả về vị trí của nó trong cấu trúc ví và vai trò của nó.
