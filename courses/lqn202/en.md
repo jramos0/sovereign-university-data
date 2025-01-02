@@ -14,7 +14,7 @@ objectives:
 
 all question ar on the typescript. we don't have them text files.
 
-Copyright: CC BY SA from Blockstream Liquid
+Copyright- CC BY SA from Blockstream Liquid
 
 ---
 
