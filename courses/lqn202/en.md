@@ -170,7 +170,7 @@ To complement the code repository, there is also the https://elementsproject.org
 
 In order to run Elements on your machine you will first need to clone (download a copy of) the source code, install any dependencies the code has and finally build the daemon and client executables. The Elements software is then ready to be configured and run.
 
-## #Configuring Nodes and Networking
+## Configuring Nodes and Networking
 
 <chapterId>df1ec0aa-84ea-4149-af7a-b4523d67e1d9</chapterId>
 
