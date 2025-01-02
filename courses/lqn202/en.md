@@ -1,21 +1,14 @@
 ---
-
 name: Building with Elements and Liquid Sidechains
 goal: Learn to use and develop with the Elements open-source blockchain platform, including its key features like Confidential Transactions, Issued Assets, and Strong Federations.
 objectives:
-
-- Understand the foundational concepts of the Elements blockchain platform and Liquid sidechains.
-- Explore advanced features such as Confidential Transactions and Issued Assets.
-- Learn to set up and run Elements nodes for standalone and sidechain configurations.
-- Gain practical experience with federated block signing and the Federated 2-Way Peg.
-- Develop the skills needed to issue, reissue, and destroy assets within the Elements network.
-- Master the use of Elements CLI tools for blockchain operations.
-- Set up and manage secure, efficient blockchain environments for real-world use cases.
-
-all question ar on the typescript. we don't have them text files.
-
-Copyright- CC BY SA from Blockstream Liquid
-
+  - Understand the foundational concepts of the Elements blockchain platform and Liquid sidechains.
+  - Explore advanced features such as Confidential Transactions and Issued Assets.
+  - Learn to set up and run Elements nodes for standalone and sidechain configurations.
+  - Gain practical experience with federated block signing and the Federated 2-Way Peg.
+  - Develop the skills needed to issue, reissue, and destroy assets within the Elements network.
+  - Master the use of Elements CLI tools for blockchain operations.
+  - Set up and manage secure, efficient blockchain environments for real-world use cases.
 ---
 
 # Introduction
