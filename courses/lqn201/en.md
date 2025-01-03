@@ -1,5 +1,5 @@
 ---
-name: Liquid Bootcamp - Mastering Confidential Transactions and Network Operations
+name: Liquid Bootcamp Essentials
 goal: Gain a comprehensive understanding of the Liquid Network and the Elements project, and learn how to implement advanced solutions in confidential transactions, tokenization, and decentralized network architecture.
 objectives:
   - Understand the fundamentals of Liquid architecture and its relationship with Bitcoin.
@@ -29,6 +29,8 @@ Welcome to the Liquid Bootcamp, a comprehensive training designed to equip you w
 
 Throughout the bootcamp, you will explore practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breeze SDK, and the Blockstream AMP project.
 
+This bootcamp was originally conducted as an in-person event, following a structured schedule (as shown in the image) designed for live sessions. However, for this course adaptation, the content has been reorganized to better suit an online format and facilitate comprehension for students. The new order ensures a logical progression from foundational concepts to more technical and advanced topics, maximizing the learning experience.
+
 This journey is structured to accommodate participants with varying levels of expertise, offering a blend of theoretical knowledge and hands-on experience. By the end of this bootcamp, you will have a solid understanding of Liquid's architecture, its integration with Bitcoin, and how to use its innovative features to build and optimize financial solutions.
 
 # Fundamentals
@@ -36,7 +38,7 @@ This journey is structured to accommodate participants with varying levels of ex
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
 <chapterId>df252fb8-3271-41d7-971a-d3315b7172e4</chapterId>
 
-## Pablo - Liquid Architecture
+## Liquid Architecture
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
