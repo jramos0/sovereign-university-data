@@ -1,5 +1,5 @@
 ---
-name: Building with Elements and Liquid Sidechains
+name: Building with Elements and Liquid Network
 goal: Learn to use and develop with the Elements open-source blockchain platform, including its key features like Confidential Transactions, Issued Assets, and Strong Federations.
 objectives:
   - Understand the foundational concepts of the Elements blockchain platform and Liquid sidechains.
