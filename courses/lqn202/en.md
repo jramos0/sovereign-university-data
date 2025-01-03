@@ -19,7 +19,7 @@ Liquid, based on the Elements framework, is designed to improve privacy, scalabi
 
 This course is tailored to developers of all experience levels. Beginners and intermediate users will find accessible explanations and practical examples, while advanced users can delve deeper into technical details and lesser-known features of Liquid and Elements.
 
-Join us to elevate your skills, unlock the full potential of Liquid and Elements, and create impactful tools for the future of digital innovation.
+Join us to elevate your skills, unlock the full potential of Liquid and Elements, and create impactful tools for the future of the Liquid innovation.
 +++
 
 # Introduction
