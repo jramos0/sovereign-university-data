@@ -1,13 +1,14 @@
 topic: protocol
 subtopic: sidechain
 level: intermediate
-hours: 10
+hours: 8
 
 professors:
-  - guitar-ostrich
+  - abstract-alpha
 
 # Proofreading metadata
 original_language: en
+
 proofreading:
   - language: en
     last_contribution_date:
