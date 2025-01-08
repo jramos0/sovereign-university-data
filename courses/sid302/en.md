@@ -1244,11 +1244,6 @@ The next step is to challenge yourself with a cumulative quiz that covers all pr
 <chapterId>beae23bd-2fd1-49fe-8f38-ed169acde51d</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Final exam
-
-<chapterId>9e6b5f01-1041-45ba-bf24-9c449c8d3ab2</chapterId>
-<isCourseExam>false</isCourseExam>
-
 ## Conclusion
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>

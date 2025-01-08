@@ -6,8 +6,6 @@ objectives:
   - Learn to configure and operate Liquid nodes using the Elements software.
   - Explore the use of confidential transactions and asset issuance on the Liquid Network.
   - Grasp the business and technical aspects of Liquid for applications in capital markets.
-  - Master practical tools like the Breeze SDK to implement decentralized solutions.
-  - Understand the challenges and benefits of tokenization and smart contracts within the Liquid ecosystem.
 ---
 
 # Introducing to the Liquid network
