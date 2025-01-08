@@ -45,11 +45,11 @@ In this course, you will learn about various aspects of Bitcoin, including:
 
 ### Why Bitcoin?
 
-Running a Bitcoin-based business comes with its own challenges and opportunities. Sharing personal anecdotes about how abandoning blockchain buzzwords led to success in certain ventures and the importance of understanding Bitcoin deeply to avoid common pitfalls.
+Running a Bitcoin-based business comes with its own challenges and opportunities. Sharing personal anecdotes about how abandoning blockchain buzzwords led to success in certain ventures and how important it is to deeply understand Bitcoin to avoid common pitfalls.
 
 ### Education Initiatives in Bitcoin
 
-The Plan ₿ Network initiative, supported by Fulgur Ventures and Tether, is rooted in Lugano and focused on developing Bitcoin education globally. The PlanB School offers comprehensive programs covering technical aspects of Bitcoin, its history, and the business side of running Bitcoin-related ventures.
+The Plan ₿ Network initiative, supported by Fulgur Ventures and Tether, is rooted in Lugano and focused on developing Bitcoin education globally. The Plan ₿ School offers comprehensive programs covering technical aspects of Bitcoin, its history, and the business side of running Bitcoin-related ventures.
 
 ### Conclusion
 
@@ -66,11 +66,11 @@ This lecture sets the stage for a deeper dive into Bitcoin's transformative pote
 
 ![video replay](https://youtu.be/CnSwXsNO-kE)
 
-### Understanding Money and Bitcoin: Principles and Perspectives
+### Understanding money and Bitcoin: principles and perspectives
 
-In this chapter, we embark on a comprehensive exploration of the core concepts of money, beginning with its fundamental functions as recognized in classical economic theory: a store of value, medium of exchange, and unit of account. We’ll also delve into how these concepts align with Bitcoin and why it stands as a transformative force in modern economics. Drawing from Austrian Economics and the Cypherpunk ethos, we will assess the unique role Bitcoin plays in addressing the limitations of traditional money.
+In this chapter, we will embark on a comprehensive exploration of the core concepts of money, beginning with its fundamental functions as recognized in classical economic theory: a store of value, medium of exchange, and unit of account. We will also delve into how these concepts align with Bitcoin and why it stands as a transformative force in modern economics. Drawing from Austrian Economics and the Cypherpunk ethos, we will assess the unique role Bitcoin plays in addressing the limitations of traditional money.
 
-### What is Money?
+### What is money?
 
 Money, in its simplest form, is a tool used to facilitate trade and store wealth over time. It serves three primary functions:
 
@@ -78,28 +78,28 @@ Money, in its simplest form, is a tool used to facilitate trade and store wealth
 2. **Medium of Exchange**: Money facilitates the exchange of goods and services by eliminating the inefficiencies of barter, such as the need for a "double coincidence of wants."
 3. **Unit of Account**: Money provides a consistent measure of value, enabling individuals to compare the worth of goods and services.
 
-#### Classical Roots: Aristotle and the Birth of Monetary Theory
+#### Classical Roots: Aristotle and the birth of Monetary Theory
 
 Aristotle was one of the first to define these essential characteristics of money in ancient Greece. He recognized that, for something to function effectively as money, it must be durable, divisible, portable, and intrinsically valuable. This foundation set the stage for modern economic thought on money and its role in society.
 
 ![Image](assets/2/1.webp)
 
-### Store of Value: From Gold to Bitcoin
+### Store of Value: from gold to Bitcoin
 
 Historically, gold has been the premier store of value due to its scarcity, durability, and intrinsic worth. Gold's limited supply ensures that it holds its value over time, even in the face of inflation or economic downturns.
 
-- **Gold as the Traditional Store of Value**: Gold has been used for centuries as a way to preserve wealth across generations. Its physical properties—scarcity, durability, and malleability—made it an ideal choice for this function.
+- **Gold as the Traditional Store of Value**: Gold has been used for centuries as a way to preserve wealth across generations. Its physical properties — scarcity, durability, and malleability — made it an ideal choice for this function.
 - **Bitcoin as Digital Gold**: Bitcoin offers a modern equivalent to gold, with the added advantages of being digital and decentralized. Like gold, Bitcoin is scarce, with a capped supply of 21 million coins, making it an attractive asset for those seeking to hedge against inflation and monetary devaluation.
 
-#### Why Bitcoin Excels as a Store of Value
+#### Why Bitcoin excels as a store of value
 
 Bitcoin’s fixed supply means it is immune to the inflationary pressures that plague fiat currencies. Central banks, such as the Federal Reserve, can print an unlimited amount of money, thereby devaluing the currency over time. In contrast, Bitcoin’s decentralized nature ensures that no single entity can alter its supply. This scarcity, combined with its security and divisibility, positions Bitcoin as a superior store of value in the digital age.
 
-- **Comparison to Fiat Currencies**: While fiat currencies like the US dollar or the Euro can lose purchasing power through inflation, Bitcoin’s fixed issuance schedule ensures long-term scarcity, making it an ideal digital asset for preserving wealth.
+- **Comparison to Fiat Currencies**: while fiat currencies like the US dollar or the Euro can lose purchasing power through inflation, Bitcoin’s fixed issuance schedule ensures long-term scarcity, making it an ideal digital asset for preserving wealth.
 
 ### Medium of Exchange: Overcoming the Double Coincidence of Wants
 
-In a barter system, trade is limited by the necessity for both parties to want what the other has—this is known as the "double coincidence of wants." Money solves this problem by acting as an intermediary, allowing individuals to trade freely without the need for a direct exchange of goods.
+In a barter system, trade is limited by the necessity for both parties to want what the other has — this is known as the "double coincidence of wants". Money solves this problem by acting as an intermediary, allowing individuals to trade freely without the need for a direct exchange of goods.
 
 - **Bitcoin as a Medium of Exchange**: While Bitcoin is often criticized for its volatility, its use as a medium of exchange is growing, particularly in contexts where traditional financial systems are unreliable or overly restrictive. Bitcoin enables peer-to-peer transactions across borders without the need for a trusted intermediary, such as a bank or payment processor.
 
@@ -121,18 +121,18 @@ Bitcoin’s alignment with Austrian economic principles is one of its most compe
 
 ![Image](assets/2/2.webp)
 
-#### Marginal Utility and Bitcoin
+#### Marginal utility and Bitcoin
 
-The concept of marginal utility helps explain why Bitcoin, despite its digital nature, is valuable. Marginal utility suggests that the value of an additional unit of a good decreases as the supply of that good increases. Since Bitcoin has a finite supply, its marginal utility remains high, particularly as more people adopt it.
+The concept of marginal utility helps explain why Bitcoin is valuable despite its digital nature. Marginal utility suggests that the value of an additional unit of a good decreases as the supply of that good itself increases. Since Bitcoin has a finite supply, its marginal utility remains high, especially as more people adopt it.
 
-### Cypherpunk Ideals: Privacy, Decentralization, and Resistance to Control
+### Cypherpunk ideals: privacy, decentralization, and control resistance
 
-Bitcoin is not just a product of economic theory—it is also a direct response to the ideals of the Cypherpunk movement. This movement, which emerged in the early 1990s, sought to protect individual privacy and freedom in an increasingly digital world. The Cypherpunks believed that cryptography could be used to resist surveillance and censorship by governments and corporations.
+Bitcoin is not just a product of economic theories — it is also a direct response to the ideals of the Cypherpunk movement. This movement, which emerged in the early 1990s, sought to protect individual privacy and freedom in an increasingly digital world. The Cypherpunks believed that cryptography could be a powerful tool to resist surveillance and censorship by governments and corporations.
 
-- **Founders of the Cypherpunk Movement**: Key figures such as Eric Hughes, Timothy May, and John Gilmore pioneered the use of cryptography to create secure, private systems for communication and commerce. Bitcoin embodies these ideals by allowing individuals to transact without revealing their identities and without relying on centralized authorities.
+- **Founders of the Cypherpunk Movement**: key figures such as Eric Hughes, Timothy May, and John Gilmore pioneered the use of cryptography to create secure, private systems for communication and commerce. Bitcoin embodies these ideals by allowing individuals to transact without revealing their identities and without relying on centralized authorities.
 - **Bitcoin and Decentralization**: Bitcoin’s decentralized nature ensures that no single entity can control the network. This makes it resistant to censorship and manipulation, aligning with the Cypherpunk vision of a free and open internet.
 
-#### Privacy as a Core Principle
+#### Privacy as a core principle
 
 The importance of privacy in the Bitcoin network cannot be overstated. In traditional financial systems, transactions are monitored and controlled by central authorities, which can block or reverse payments. Bitcoin, by contrast, allows for pseudonymous transactions, meaning that while all transactions are recorded on the public blockchain, users’ identities are not directly tied to their Bitcoin addresses.
 
@@ -140,15 +140,15 @@ The importance of privacy in the Bitcoin network cannot be overstated. In tradit
 
 ![Image](assets/2/3.webp)
 
-### Unit of Account: A New Measure of Value
+### Unit of account: a new measure of value
 
 A unit of account is a standard by which the value of goods and services can be measured. Historically, fiat currencies have served this function, providing a stable reference point for pricing goods and services. However, Bitcoin’s growing adoption and the increasing use of Bitcoin-denominated assets suggest that it may eventually serve as a global unit of account.
 
-- **The Potential for Bitcoin as a Unit of Account**: Although Bitcoin’s volatility currently prevents it from being widely used as a unit of account, some economists argue that as adoption increases and volatility decreases, Bitcoin could one day replace fiat currencies as the primary measure of value.
+- **The Potential for Bitcoin as a Unit of Account**: although Bitcoin’s volatility currently prevents it from being widely used as a unit of account, some economists argue that as adoption increases and volatility decreases, Bitcoin could one day replace fiat currencies as the primary measure of value.
 
 ### Conclusion
 
-In this chapter, we have explored the evolution of money, from its classical functions to its modern incarnation in the form of Bitcoin. By serving as a store of value, medium of exchange, and potentially a unit of account, Bitcoin represents a fundamental shift in how we think about and use money. Rooted in Austrian Economics and inspired by the Cypherpunk ethos, Bitcoin offers a decentralized, secure, and censorship-resistant alternative to traditional financial systems. As we continue to explore the world of Bitcoin, it becomes clear that its impact on economics, privacy, and individual freedom is just beginning to unfold.
+In this chapter, we have explored the evolution of money, from its classical functions to its modern incarnation in the form of Bitcoin. By serving as a store of value, medium of exchange, and a potential unit of account, Bitcoin represents a fundamental shift in how we think about and use money. Rooted in Austrian Economics and inspired by the Cypherpunk ethos, Bitcoin offers a decentralized, secure, and censorship-resistant alternative to traditional financial systems. As we continue to explore the world of Bitcoin, it becomes clear that its impact on economics, privacy, and individual freedom is just beginning to unfold.
 
 ## Corruption of Money
 
@@ -157,61 +157,61 @@ In this chapter, we have explored the evolution of money, from its classical fun
 
 ![video replay](https://youtu.be/EZEHfr_1-qA)
 
-### Introduction to the Corruption of Money
+### Introduction to the corruption of money
 
-The journey of money has evolved from physical exchanges like gold and silver to the digital world of fiat and cryptocurrencies. However, this evolution has not been without its issues. In this chapter, we explore the historical patterns of the corruption of money, how legal tenders have exacerbated these problems, and how Bitcoin offers a potential solution to these long-standing issues. We will break this discussion into three sections: the evolution of money, the challenges of verification and trust, and the role of Bitcoin in combating monetary corruption.
+The journey of money has evolved from physical exchanges, like gold and silver, to the digital world of fiat and cryptocurrencies. However, this evolution has faced several challenges. In this chapter, we will explore the historical patterns of the corruption of money, how legal tenders have exacerbated these problems, and how Bitcoin offers a potential solution to these long-standing issues. We will break this discussion into three sections: the evolution of money, the challenges of verification and trust, and the role of Bitcoin in combating monetary corruption.
 
 ![Image](assets/2/4.webp)
 
-### The Evolution of Money: From Commodity to Fiat
+### The evolution of money: from commodity to fiat
 
-#### From Barter to Commodity Money
+#### From barter to commodity money
 
 Early civilizations struggled with the inefficiencies of barter, leading to the adoption of commodity money like gold and silver. These metals were chosen for their intrinsic value, durability, and divisibility. Over time, the need for more efficient means of trade gave rise to coinage, where trusted authorities minted coins to standardize the value of these commodities.
 
-- **Coinage and Verification**: Coinage introduced the concept of delegated verification. Rather than individuals needing to verify the purity and weight of gold themselves, trusted entities like temples and governments would stamp coins to certify their authenticity&#8203;:contentReference[oaicite:0]{index=0}.
+- **Coinage and Verification**: coinage introduced the concept of delegated verification. Rather than individuals needing to verify the purity and weight of gold themselves, trusted entities like temples and governments would stamp coins to certify their authenticity.
 
 ![Image](assets/2/5.webp)
 
-#### Paper Money and the Emergence of Fiat
+#### Paper money and the emergence of fiat
 
 As economies grew, carrying large quantities of gold or silver became impractical. This led to the development of paper money and banknotes, which initially represented a claim on stored commodities. Over time, however, governments began issuing paper money without any commodity backing, giving rise to fiat currencies. Fiat money derives its value solely from government decree rather than any intrinsic value.
 
-- **Fiat and Legal Tender**: The transition to fiat money was accompanied by legal tender laws, which forced citizens to accept government-issued money for transactions. This created a system where governments could print money at will, leading to inflation and the erosion of the currency’s value&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}.
+- **Fiat and Legal Tender**: the transition to fiat money was accompanied by legal tender laws, which forced citizens to accept government-issued money for transactions. This created a system where governments could print money at will, leading to inflation and the erosion of the currency’s value&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}.
 
-### The Role of Trust and Verification in Monetary Systems
+### The role of trust and verification in monetary systems
 
-#### Delegated Verification: A Historical Perspective
+#### Delegated verification: a historical perspective
 
 Throughout history, the authenticity of money has always required verification. In ancient times, this was done by weighing and assessing the purity of metals. As the monetary system evolved, trust shifted from the individual to institutions. For example, goldsmiths and religious institutions began issuing certificates that represented claims on gold, which could be redeemed later.
 
-- **The Problem of Trust**: With fiat money, trust shifted entirely to governments and central banks, raising concerns about their ability to manage the money supply responsibly. The risks of fractional reserve banking and inflation have become more pronounced as the power to create money is concentrated in fewer hands&#8203;:contentReference[oaicite:3]{index=3}.
+- **The Problem of Trust**: with fiat money, trust shifted entirely to governments and central banks, raising concerns about their ability to manage the money supply responsibly. In fact, the risks of fractional reserve banking and inflation have become more pronounced as the power to create money is concentrated in fewer hands&#8203;:contentReference[oaicite:3]{index=3}.
 
-#### The Erosion of Trust
+#### The erosion of trust
 
-As governments expanded their control over monetary systems, they began to engage in practices like **seigniorage**—the profit made by issuing currency at a value higher than the cost of producing it. Over time, these practices have led to the debasement of currency, where the actual value of money decreases, yet the nominal value remains unchanged.
+As governments expanded their control over monetary systems, they began to engage in practices like **seigniorage** — the profit made by issuing currency at a higher value than the cost of producing it. Over time, these practices have led to the debasement of currency, where the actual value of money decreases, yet the nominal value remains unchanged.
 
-- **Fractional Reserve Banking**: Banks, in a bid to increase liquidity, began practicing fractional reserve banking, where they lent out more money than they actually held in reserves. This system has allowed banks to create money, but it also introduced systemic risks that can lead to insolvency during financial crises&#8203;:contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}.
+- **Fractional Reserve Banking**: banks, in a bid to increase liquidity, began practicing fractional reserve banking, meaning they lent out more money than they actually held in reserves. This system has allowed banks to create money, but it also introduced systemic risks that can lead to insolvency during financial crises&#8203;:contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}.
 
 ![Central Bank](assets/2/6.webp)
 
-### The Emergence of Bitcoin: A Response to Monetary Corruption
+### The emergence of Bitcoin: a response to monetary corruption
 
-#### Bitcoin’s Decentralized Framework
+#### Bitcoin’s decentralized framework
 
-Bitcoin was conceived as a decentralized alternative to traditional fiat currencies. By using a distributed ledger known as the blockchain, Bitcoin eliminates the need for trusted intermediaries like banks or governments to verify transactions. Instead, a network of nodes verifies and records each transaction, ensuring transparency and security.
+Bitcoin was conceived as a decentralized alternative to traditional fiat currencies. By using a distributed ledger known as the blockchain, Bitcoin eliminates the need for trusted intermediaries like banks or governments to verify transactions. Instead, a network of nodes validates and records each transaction, ensuring transparency and security.
 
-- **Trustless Verification**: Unlike traditional monetary systems, Bitcoin does not require trust in a central authority. The blockchain allows individuals to verify transactions themselves, removing the need for delegated verification&#8203;:contentReference[oaicite:6]{index=6}.
+- **Trustless Verification**: unlike traditional monetary systems, Bitcoin does not require trust in a central authority. The blockchain allows individuals to verify transactions themselves, removing the need for delegated verification&#8203;:contentReference[oaicite:6]{index=6}.
 
-#### Bitcoin as a Store of Value and Hedge Against Inflation
+#### Bitcoin as a store of value and hedge against inflation
 
 One of Bitcoin’s most significant advantages is its fixed supply of 21 million coins. This scarcity makes it a deflationary asset, contrasting sharply with fiat currencies that can be printed in unlimited quantities. As governments continue to print money, leading to inflation, Bitcoin’s value is likely to appreciate over time, providing a reliable store of value.
 
 - **De-virtualization of Money**: While fiat currencies are increasingly detached from physical assets, Bitcoin represents a return to sound money principles. It operates as a form of "digital gold," offering a way to store wealth without the risk of devaluation through inflation&#8203;:contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}.
 
-### Conclusion: Bitcoin and the Future of Money
+### Conclusion: Bitcoin and the future of money
 
-The corruption of money through inflation, seigniorage, and fractional reserve banking has eroded trust in traditional monetary systems. Bitcoin, by contrast, offers a decentralized, transparent, and secure alternative that addresses many of the issues plaguing fiat currencies. As we continue to explore the world of Bitcoin and decentralized finance, it becomes clear that Bitcoin is not just another form of money—it represents a fundamental shift in how we think about and use money in the modern world.
+The corruption of money through inflation, seigniorage, and fractional reserve banking has eroded trust in traditional monetary systems. Bitcoin, by contrast, offers a decentralized, transparent, and secure alternative that addresses many of the issues plaguing fiat currencies. As we continue to explore the world of Bitcoin and decentralized finance, it becomes clear that Bitcoin is not just another form of money, but it represents a fundamental shift in how we think about and use money in the modern world.
 
 # HOW BITCOIN? (THEORETICAL)
 
@@ -224,29 +224,29 @@ The corruption of money through inflation, seigniorage, and fractional reserve b
 
 ![video replay](https://youtu.be/GhDAOEZn3s0)
 
-### The Evolution of Cryptography and Its Role in Bitcoin
+### The evolution of Cryptography and its role in Bitcoin
 
-In this chapter, we trace the foundations that led to the creation of Bitcoin. Before Satoshi Nakamoto’s whitepaper, a number of technologies and concepts laid the groundwork, especially those related to cryptography, digital signatures, and decentralized systems. We will explore the history and key cryptographic principles that helped make Bitcoin possible.
+In this chapter, we will trace the foundations that led to the creation of Bitcoin. Before Satoshi Nakamoto’s whitepaper, a series of technological inventions and concepts laid the groundwork for its creation, especially those related to cryptography, digital signatures, and decentralized systems. Thus, we will explore the history and key cryptographic principles that helped make Bitcoin possible.
 
-### Cryptographic Foundations
+### Cryptographic foundations
 
 Bitcoin relies on cryptography for security, trustlessness, and decentralization. Two key types of cryptography have been essential:
 
-- **Symmetric cryptography**: This system uses the same key for encryption and decryption, requiring a secure channel for exchanging keys. Though effective, symmetric cryptography has limitations, especially when secure communication channels are not possible.
-- **Asymmetric cryptography (public-key cryptography)**: Introduced in the 1970s, this system allows users to have a pair of keys—a public key for encrypting data and a private key for decrypting it. This breakthrough removed the need for secure channels to share encryption keys, making it possible to communicate securely over public channels.
+- **Symmetric cryptography**: this system uses the same key for encryption and decryption, requiring a secure channel for exchanging keys. Though effective, symmetric cryptography has limitations, especially when secure communication channels are not possible.
+- **Asymmetric cryptography (public-key cryptography)**: introduced in the 1970s, this system allows users to have a pair of keys—a public key for encrypting data and a private key for decrypting it. This breakthrough removed the need for secure channels to share encryption keys, making it possible to communicate securely over public channels.
 
-Bitcoin makes extensive use of **Elliptic Curve Digital Signature Algorithm (ECDSA)**, a form of asymmetric cryptography. Users generate a public and private key pair. The public key is shared openly, but the private key must remain secret. These keys are critical for verifying and signing Bitcoin transactions.
+Bitcoin makes extensive use of **Elliptic Curve Digital Signature Algorithm (ECDSA)**, a form of asymmetric cryptography where users generate a public and private key pair. The public key is shared openly, but the private key must remain secret. These keys are critical for verifying and signing Bitcoin transactions.
 
 ![Image](assets/3/1.webp)
 
-### Hash Functions: The Backbone of Bitcoin's Security
+### Hash Functions: the backbone of Bitcoin's security
 
-A **hash function** takes an input (or message) and returns a fixed-length string of characters, which is typically a hash value. Even the smallest change in the input drastically changes the hash output, making it nearly impossible to reverse-engineer the input from the output. Hash functions are integral to Bitcoin’s proof-of-work system and ensure the integrity of the blockchain.
+A **hash function** takes an input (or message) and returns a fixed-length string of characters, which is typically a hash value. This way, even the smallest change in the input drastically changes the hash output, making it nearly impossible to reverse-engineer the input from the output. Hash functions are integral to Bitcoin’s proof-of-work system and ensure the integrity of the blockchain.
 
-Bitcoin uses **SHA-256**, a highly secure hash function developed by the NSA. It has two critical properties:
+Bitcoin uses **SHA-256**, a highly secure hash function developed by the NSA which has two critical properties:
 
-1. **Preimage resistance**: Given a hash, it is computationally infeasible to determine the input.
-2. **Second preimage resistance**: It is nearly impossible to find two different inputs that produce the same hash output.
+1. **Preimage resistance**: given a hash, it is computationally infeasible to determine the input.
+2. **Second preimage resistance**: it is nearly impossible to find two different inputs that produce the same hash output.
 
 ![Image](assets/3/2.webp)
 
@@ -254,31 +254,31 @@ Bitcoin uses **SHA-256**, a highly secure hash function developed by the NSA. It
 
 Before Bitcoin, digital money had long struggled with the **double-spending problem**, where the same digital token could be spent more than once. Bitcoin’s innovation was the introduction of **proof-of-work (PoW)**, a system that requires participants to solve complex computational puzzles to validate transactions and add new blocks to the blockchain.
 
-Proof-of-work ensures the security of the Bitcoin network by requiring miners to expend energy (via computational resources) to solve a hash puzzle. This deters malicious actors from manipulating the blockchain because altering any part of the chain would require recalculating the proof-of-work for all subsequent blocks—a computationally impossible feat.
+Proof-of-work ensures the security of the Bitcoin network by requiring miners to expend energy (via computational resources) to solve a hash puzzle. This solution deters malicious actors from manipulating the blockchain because altering any part of the chain would require recalculating the proof-of-work for all the subsequent blocks — a computationally impossible feat.
 
 ![Image](assets/3/4.webp)
 
-### The Cypherpunk Movement: Privacy, Decentralization, and Bitcoin’s Ideals
+### The Cypherpunk Movement: privacy, decentralization, and Bitcoin’s ideals
 
-The **cypherpunk** movement, which emerged in the 1990s, championed the use of cryptography to enhance privacy, resist censorship, and enable decentralized systems. Founders like **Timothy May**, **Eric Hughes**, and **Nick Szabo** were instrumental in shaping the ideals that would later influence Bitcoin’s creation.
+The **cypherpunk** movement, which emerged in the 1990s, mastered the use of cryptography to enhance privacy, resist censorship, and enable decentralized systems. Founders like **Timothy May**, **Eric Hughes**, and **Nick Szabo** were instrumental in shaping the ideals that would later influence Bitcoin’s creation.
 
 One of the earliest attempts to create digital cash was **Hashcash**, developed by **Adam Back**. Hashcash was initially designed to prevent email spam by requiring proof-of-work to send messages. Although it wasn’t widely adopted for its original purpose, the idea of proof-of-work was later adapted by Bitcoin to secure transactions.
 
-### Reusable Proof-of-Work and the Move Towards Decentralized Digital Money
+### Reusable proof-of-work and the move towards decentralized digital money
 
 The concept of **reusable proof-of-work (RPoW)**, introduced by **Hal Finney**, was another step toward digital money. Finney’s system allowed proof-of-work tokens to be transferred from one person to another, mimicking the properties of cash. However, the system relied on a central server to verify transactions, which posed limitations in terms of decentralization.
 
-Bitcoin solved this by eliminating the need for a trusted central authority. It combined Finney’s idea of reusable proof-of-work with a decentralized ledger (the blockchain), where all participants in the network independently verify transactions.
+Bitcoin solved this matter by eliminating the need for a trusted central authority. It combined Finney’s idea of reusable proof-of-work with a decentralized ledger (the blockchain), where all participants in the network independently verify transactions.
 
 ![Image](assets/3/3.webp)
 
-### Smart Contracts: Expanding Bitcoin’s Use Cases
+### Smart Contracts: expanding Bitcoin’s use cases
 
-Another key precursor to Bitcoin was **Nick Szabo’s** concept of **smart contracts**. These are self-executing contracts with the terms of the agreement directly written into code. Smart contracts enhance the functionality of decentralized systems by enabling complex transactions, such as multi-signature accounts or escrow services, without needing intermediaries.
+Another key precursor to Bitcoin was **Nick Szabo’s** concept of **smart contracts**: self-executing contracts with the terms of the agreement directly written into code. Smart contracts enhance the functionality of decentralized systems by enabling complex transactions, such as multi-signature accounts or escrow services, without needing intermediaries.
 
 Szabo also proposed **Bit Gold**, a decentralized currency system based on proof-of-work. While Bit Gold was never implemented, it provided much of the conceptual framework for Bitcoin.
 
-### Conclusion: Laying the Foundation for Bitcoin
+### Conclusion: laying the foundation for Bitcoin
 
 Before Satoshi Nakamoto, technologies like cryptographic signatures, proof-of-work, and smart contracts were all explored by cypherpunks and cryptographers. These concepts laid the groundwork for the invention of Bitcoin in 2009, providing the technological and philosophical foundation that has since transformed how we view money and decentralized systems.
 
@@ -289,66 +289,66 @@ Before Satoshi Nakamoto, technologies like cryptographic signatures, proof-of-wo
 
 ![video replay](https://youtu.be/83k4E-NnCb4)
 
-### The Impact of Bitcoin Post-Satoshi
+### The impact of Bitcoin post-Satoshi
 
-After Satoshi Nakamoto’s groundbreaking release of Bitcoin in 2008, the cryptocurrency world evolved rapidly, with significant technological advancements and broader implications for decentralized digital currencies. In this chapter, we explore the foundations laid by Bitcoin, the technological innovations it introduced, and the key challenges and solutions that have emerged since its inception. The "After Satoshi" era delves deep into the mechanics that ensure Bitcoin’s trustless security and how it handles challenges like scalability, privacy, and consensus.
+After Satoshi Nakamoto’s groundbreaking release of Bitcoin in 2008, the cryptocurrency world evolved rapidly, with significant technological advancements and broader implications for decentralized digital currencies. In this chapter, we will explore the foundations laid by Bitcoin, the technological innovations it introduced, and the key challenges and solutions that have emerged since its inception. The "After Satoshi" era delves deep into the mechanics that ensure Bitcoin’s trustless security and how it handles challenges like scalability, privacy, and consensus.
 
 ![Image](assets/3/5.webp)
 
-### The Theoretical Framework of Bitcoin
+### The theoretical framework of Bitcoin
 
 Bitcoin revolutionized the concept of decentralized finance by introducing a system that allows peer-to-peer transactions without intermediaries like banks or governments. Satoshi Nakamoto’s whitepaper introduced the framework for a system that solved the double-spending problem while creating digital scarcity through proof-of-work. This section will revisit and expand on the core principles that underpin Bitcoin’s mechanics.
 
 #### Time Chain vs. Blockchain
 
-Contrary to modern terminology, **Satoshi Nakamoto** never referred to the system as a "blockchain" but rather a "proof-of-work chain" or "chain of blocks." Even in his early code, Satoshi used the term **time chain** to refer to Bitcoin’s way of organizing transactions chronologically. This time-based ordering is critical for ensuring the immutability of Bitcoin’s ledger and preventing double-spending.
+Contrary to modern terminology, **Satoshi Nakamoto** never referred to the system as a "blockchain" but rather as a "proof-of-work chain" or "chain of blocks." Even in his early code, Satoshi used the term **time chain** to refer to Bitcoin’s way of organizing transactions chronologically. This time-based ordering is critical for ensuring the immutability of Bitcoin’s ledger and preventing double-spending.
 
-- **Proof-of-Work Chain**: Proof-of-work ensures that transactions are verified by requiring nodes to solve complex computational problems. The solution ties together the time chain, securing Bitcoin’s transaction history and making it resistant to tampering&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
+- **Proof-of-Work Chain**: proof-of-work ensures that transactions are verified by requiring nodes to solve complex computational problems. The solution ties the time chain, securing Bitcoin’s transaction history and making it resistant to tampering&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
 
 ![Image](assets/3/7.webp)
 
-### The Global Consensus Mechanism
+### The global consensus mechanism
 
 One of Bitcoin’s key innovations is its **global consensus mechanism**, which prevents Sybil attacks and ensures that all participants in the network agree on the order and validity of transactions. Unlike earlier systems that relied on centralized servers to verify transactions (e.g., reusable proof-of-work), Bitcoin uses a decentralized global network to validate each transaction through majority consensus.
 
-#### Proof-of-Work and Sybil Resistance
+#### Proof-of-Work and Sybil resistance
 
-Bitcoin’s **proof-of-work** mechanism prevents **Sybil attacks**, where malicious actors create multiple fake identities (or nodes) to control the network. Since proof-of-work requires real computational effort, it ensures that only those who expend resources (electricity, computational power) can influence the voting process. As a result, it becomes economically impractical for an attacker to take over the network.
+Bitcoin **proof-of-work** mechanism prevents **Sybil attacks**, where malicious actors create multiple fake identities (or nodes) to control the network. Since proof-of-work requires real computational effort, it ensures that only those who expend resources (electricity, computational power) can influence the voting process. As a result, it becomes economically impractical for an attacker to take over the network.
 
-- **51% Attack**: In a **51% attack**, an attacker would need to control more than half of the network’s computational power to manipulate the blockchain. The cost of acquiring and maintaining this amount of computing power makes such attacks nearly impossible under normal circumstances&#8203;:contentReference[oaicite:2]{index=2}.
+- **51% Attack**: in a **51% attack**, an aggressor would need to control more than half of the network’s computational power to manipulate the blockchain. The cost of acquiring and maintaining this amount of computing power makes such attacks nearly impossible under normal circumstances&#8203;:contentReference[oaicite:2]{index=2}.
 
-#### Global Voting for Double-Spending Protection
+#### Global voting for double-spending protection
 
-In earlier attempts at digital currency, **double spending**—where the same digital asset is spent more than once—was a persistent problem. Bitcoin solves this through a decentralized global voting system. All network participants (nodes) must agree on the validity of transactions, making it impossible for any single party to spend the same Bitcoin twice without detection&#8203;:contentReference[oaicite:3]{index=3}.
+In earlier attempts at digital currencies, **double spending** — where the same digital asset is spent more than once — was a persistent problem. Bitcoin solves this through a decentralized global voting system. All network participants (nodes) must agree on the validity of transactions, making it impossible for any single party to spend the same Bitcoin twice without detection&#8203;:contentReference[oaicite:3]{index=3}.
 
 ![Image](assets/3/6.webp)
 
-### Scalability and the Challenge of Growth
+### Scalability and the challenge of growth
 
-As Bitcoin’s network expands, so too do its challenges, particularly regarding scalability. Each node in the Bitcoin network must store the entire transaction history, which grows as more users join and transactions accumulate.
+As Bitcoin’s network expands, so do its challenges too, particularly regarding scalability. In fact, each node in the Bitcoin network must store the entire transaction history, which grows, as more users join and transactions accumulate.
 
-#### The Scalability Problem
+#### The scalability problem
 
-Bitcoin’s decentralized structure requires that every participant in the network stores a copy of the **Unspent Transaction Output (UTXO) set**, a record of all unspent Bitcoin. As the network grows, the amount of data each node must store increases, leading to concerns about centralization (where only large, resource-rich participants can afford to run nodes).
+Bitcoin’s decentralized structure requires that every participant in the network stores a copy of the **Unspent Transaction Output (UTXO) set**, a record of all unspent bitcoins. As the network grows, the amount of data each node must store increases, leading to concerns about centralization (where only large, resource-rich participants can afford to run nodes).
 
-- **Layered Solutions**: To address these issues, Bitcoin has embraced layered solutions like **the Lightning Network**, which allows for fast, off-chain transactions that don’t burden the main blockchain with additional data. Off-chain solutions help reduce congestion on the primary blockchain while maintaining its decentralized principles&#8203;:contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}.
+- **Layered Solutions**: to address these issues, Bitcoin has embraced layered solutions like **Lightning Network**, which allows for fast, off-chain transactions that don’t burden the main blockchain with additional data. Off-chain solutions help reduce congestion on the primary blockchain while maintaining its decentralized principles&#8203;:contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}.
 
-#### Privacy Concerns in a Global Consensus System
+#### Privacy concerns in a global consensus system
 
 While Bitcoin offers pseudonymity, where public keys are not directly tied to real-world identities, the permanence of the blockchain poses privacy risks. Every transaction is recorded forever, which allows for the potential de-anonymization of users through public key analysis. Privacy solutions, such as **coin mixing** or **privacy coins** like Monero and Zcash, have attempted to mitigate these risks, though they come with their own challenges&#8203;:contentReference[oaicite:6]{index=6}.
 
-### Second-Layer Solutions and the Future of Bitcoin
+### Second-layer solutions and the future of Bitcoin
 
-As Bitcoin continues to grow, second-layer solutions like the **Lightning Network** and **sidechains** have emerged to enhance scalability and privacy while preserving the integrity of the core network. These layers enable faster transactions, lower fees, and more flexible use cases, all while maintaining Bitcoin’s decentralized ethos.
+As Bitcoin continues to grow, second-layer solutions like **Lightning Network** and **sidechains** have emerged to enhance scalability and privacy while preserving the integrity of the core network. These layers enable faster transactions, lower fees, and more flexible use cases, all while maintaining Bitcoin’s decentralized ethos.
 
 ![Image](assets/3/8.webp)
 
-- **Lightning Network**: A second-layer protocol that allows users to conduct transactions off-chain, significantly reducing the load on the main Bitcoin blockchain. Transactions are settled off-chain and only recorded on the main chain when necessary, enhancing scalability.
-- **Sidechains**: Separate blockchains that run alongside Bitcoin, allowing for experimentation with new features and functions without compromising the main blockchain's security.
+- **Lightning Network**: a second-layer protocol that allows users to conduct transactions off-chain, significantly reducing the load on the main Bitcoin blockchain. Transactions are settled off-chain and only recorded on the main chain when necessary, enhancing scalability.
+- **Sidechains**: separate blockchains that run alongside Bitcoin, allowing for experimentation with new features and functions without compromising the main blockchain's security.
 
-### Conclusion: Bitcoin’s Evolution After Satoshi
+### Conclusion: Bitcoin’s evolution after Satoshi
 
-The period after Satoshi Nakamoto’s disappearance saw rapid development in the Bitcoin ecosystem, driven by technological innovations that addressed its limitations. Proof-of-work remains a cornerstone of Bitcoin’s security, ensuring the network’s resistance to Sybil attacks and double spending. Scalability, privacy, and decentralization remain ongoing challenges, but through layered solutions like the Lightning Network, Bitcoin is evolving to meet these demands while staying true to Satoshi’s original vision of a decentralized, trustless monetary system&#8203;:contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}.
+The period after Satoshi Nakamoto’s disappearance saw rapid developments in the Bitcoin ecosystem, driven by technological innovations that addressed its limitations. Proof-of-work remains a cornerstone of Bitcoin’s security, ensuring the network’s resistance to Sybil attacks and double spending, but scalability, privacy, and decentralization remain ongoing challenges. Through layered solutions like the Lightning Network, Bitcoin is evolving to meet these demands while staying true to Satoshi’s original vision of a decentralized, trustless monetary system&#8203;:contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}.
 
 # HOW BITCOIN? (PRACTICAL)
 
@@ -361,43 +361,43 @@ The period after Satoshi Nakamoto’s disappearance saw rapid development in the
 
 ![video replay](https://youtu.be/bsBE-EweqT0)
 
-Welcome to our comprehensive lecture series focusing on Bitcoin. This series is designed to guide you through the essentials of Bitcoin, with focus on key knowledge regarding Bitcoin keys and their management. After, we will delve into more advanced topics, provided today's session is well-received. Let’s begin by exploring the foundational aspects of Bitcoin.
+Let’s begin this session by exploring the foundational aspects of Bitcoin.
 
-### Essential Bitcoin Knowledge and Key Management
+### Essential Bitcoin knowledge and key management
 
 In the rapidly evolving world of Bitcoin, understanding key concepts such as private keys and addresses is fundamental. These components are the cornerstone of Bitcoin ownership and transaction management, ensuring secure and verifiable exchanges of value.
 
-- **Private Keys**: Private keys are secret cryptographic materials that are crucial for Bitcoin ownership. They are large, hard-to-guess numbers, enabling the creation of cryptographic signatures necessary for transaction authentication. Generating private keys requires high-quality entropy to ensure security. It's crucial to avoid biased random generators, which can make keys vulnerable to attacks. Historical incidents underscore the importance of proper entropy management.
+- **Private Keys**: private keys are secret cryptographic materials that are crucial for Bitcoin ownership. They are large, hard-to-guess numbers, enabling the creation of the cryptographic signatures that are necessary for transaction authentication. Generating private keys requires high-quality entropy to ensure security, so it's important to avoid biased random generators, which can create keys that are vulnerable to attacks. Historical incidents underscore the importance of proper entropy management.
 
-- **Key Generation**: Use reputable, open-source software for generating Bitcoin keys, ensuring high-quality entropy. For those particularly concerned about entropy, methods like throwing dice can offer additional security, albeit with complexity.
+- **Key Generation**: use reputable, open-source software for generating Bitcoin keys, ensuring high-quality entropy. For those who are particularly concerned about entropy, methods like throwing dice can offer additional security, albeit with complexity.
 
-- **Key Backup**: Always back up your keys to prevent loss due to device failure. Physical methods like paper or steel plaques are recommended, as digital backups can be vulnerable to hacking and are difficult to erase.
+- **Key Backup**: always back up your keys to prevent loss due to device failure. Physical methods like paper or steel plaques are recommended, as digital backups can be vulnerable to hacking and are difficult to erase.
 
-- **Security Precautions**: Avoid storing keys on digital media such as smartphone apps or computers, which are prone to unauthorized access. Use well-known, reputable software for key management, ensuring that backups are resistant to physical damage and unauthorized access.
+- **Security Precautions**: avoid storing keys on digital media such as smartphone apps or computers, which are prone to unauthorized access. Use well-known, reputable software for key management, ensuring that backups are resistant to physical damage and security breaches.
 
 These foundational practices are critical to securing your Bitcoin assets and ensuring safe transaction management, protecting against loss, theft, or accidental damage.
 
-### Advanced Bitcoin Wallets and Transaction Optimization
+### Advanced Bitcoin wallets and transaction optimization
 
 As we advance to more complex topics, understanding Bitcoin wallets and optimizing transaction strategies becomes essential, especially for those aiming to improve efficiency and scalability in their Bitcoin usage.
 
-- **BIP32 Basics**: This standard starts with a master seed to create a hierarchical tree structure of keys, allowing for unlimited depth in key generation. BIP32 is particularly useful for businesses that need segmented wallets for different clients without generating new keys each time.
+- **BIP32 Basics**: this standard allows to starts from a master seed to create a hierarchical tree structure of keys, allowing for unlimited depth in key generation. BIP32 is particularly useful for businesses that need segmented wallets for different clients without generating new keys each time.
 
-- **Transaction Optimization**: Optimizing Bitcoin transactions involves strategies like batching to reduce fees and prioritizing transactions based on the fee per byte. Tools such as Partially Signed Bitcoin Transactions (PSBT) facilitate secure transaction transfers between different wallet applications, enhancing interoperability.
+- **Transaction Optimization**: optimizing Bitcoin transactions involves strategies like batching to reduce fees and prioritizing transactions based on the fee per byte. Tools such as Partially Signed Bitcoin Transactions (PSBT) facilitate secure transaction transfers between different wallet applications, enhancing interoperability.
 
 - **UTXO Management**: Unspent Transaction Outputs (UTXOs) are critical to transaction management. Avoid creating dust UTXOs, as they may cost more in fees than their value. Use wallets that minimize UTXO fragmentation and consider full UTXO usage when transferring funds to an exchange to avoid creating change.
 
 Mastering these advanced aspects of Bitcoin wallet management and transaction optimization will not only enhance security but also improve the efficiency of your Bitcoin operations, allowing for more sophisticated use of digital assets.
 
-### Security Practices and Privacy Considerations in Bitcoin Usage
+### Security practices and privacy considerations in Bitcoin usage
 
-When using Bitcoin, both security and privacy are paramount due to its decentralized and pseudonymous nature. Protecting your funds and personal data from potential risks requires a deep understanding of the following practices.
+When using Bitcoin, both security and privacy are paramount, due to its decentralized and pseudonymous nature. Protecting your funds and personal data from potential risks requires a deep understanding of the following practices.
 
-#### Security Practices
+#### Security practices
 
 To mitigate the risk of losing Bitcoin due to private key exposure, advanced security strategies like Shamir Secret Sharing and multi-signature setups can be employed. These methods distribute the control of private keys among multiple trusted parties, preventing a single point of failure. Hardware wallets also offer robust security through offline key storage, although users must carefully consider the potential risks related to the trustworthiness of the hardware vendor.
 
-#### Privacy Considerations
+#### Privacy considerations
 
 Using third-party blockchain explorers or services can compromise privacy, as these services may collect identifiable user data. To mitigate this, running a personal Bitcoin node or using privacy-enhancing tools such as Tor can anonymize your IP address, reducing the chances of your identity being linked to your Bitcoin transactions.
 
@@ -413,7 +413,7 @@ By adhering to these security and privacy best practices, you can better safegua
 
 ### Conclusion
 
-This concludes today’s lecture on Bitcoin’s essential knowledge, key management, wallets, and security practices. Tomorrow, we will move into more technical aspects, such as running a Bitcoin node and connecting wallets to the network. Your feedback is essential in shaping the upcoming sessions, so please feel free to share your thoughts or ask any questions. We aim to build your understanding progressively through each step of this series. Thank you for your participation, and we look forward to continuing this journey together.
+This concludes the lecture on Bitcoin’s essential knowledge, key management, wallets, and security practices. In the next one, we will move into more technical aspects, such as running a Bitcoin node and connecting wallets to the network. Feel free to share your thoughts or ask any questions, as we aim to build your understanding progressively through each step of this series. Thank you for your participation, and we look forward to continuing this journey together.
 
 ## Intermediate
 
@@ -422,18 +422,18 @@ This concludes today’s lecture on Bitcoin’s essential knowledge, key managem
 
 ![video replay](https://youtu.be/mnDRVQ8hcUU)
 
-### Lecture on Bitcoin Node Setup and Multisig Configuration
+### Lecture on Bitcoin Node setup and multisig configuration
 
-Welcome to today's comprehensive lecture on setting up a Bitcoin node and configuring multisig wallets. Led by Alekos Filini, this session is designed to provide a hands-on experience, guiding participants through the practical steps of creating a Bitcoin Core node and integrating it with a multisig wallet using Specter. This interactive session aims to blend theoretical concepts with live demonstrations, offering participants the opportunity to engage directly with the material. Questions are encouraged throughout to foster an engaging and informative environment.
+Welcome to today's comprehensive lecture on setting up a Bitcoin node and configuring multisig wallets. Led by Alekos Filini, this session is designed to provide a hands-on experience, guiding participants through the practical steps of creating a Bitcoin Core node and integrating it with a multisig wallet using Specter. This interactive session aims to blend theoretical concepts with live demonstrations, offering participants the opportunity to engage directly with the material.
 
 ### **Content Overview**
 
-This lecture is structured to provide a complete walkthrough of setting up a Bitcoin Core node and utilizing it with a multisig wallet configuration. The session is divided into several key components:
+This lecture is structured to provide a complete walkthrough of setting up a Bitcoin Core node and utilizing it with a multisig wallet configuration, and it is divided into several key components:
 
-1. **Bitcoin Core Node Setup**: This section covers the installation and configuration of a Bitcoin Core node from scratch, emphasizing manual setup to ensure a thorough understanding.
-2. **Integration with Specter Wallet**: After establishing the node, the focus shifts to installing and configuring Specter, a desktop wallet that supports multisig capabilities. This includes best practices for security measures like signature verification and hash validation, crucial for maintaining network integrity.
+1. **Bitcoin Core Node Setup**: this section covers the installation and configuration of a Bitcoin Core node from scratch, emphasizing manual setup to ensure a thorough understanding.
+2. **Integration with Specter Wallet**: after establishing the node, the focus shifts to installing and configuring Specter, a desktop wallet that supports multisig options. This process includes best practices for security measures like signature verification and hash validation, crucial for maintaining network integrity.
 
-### **Practical Setup of a Bitcoin Core Node**
+### **Practical setup of a Bitcoin Core node**
 
 To ensure participants gain real-world experience, the practical segment simulates a Bitcoin node setup in a Linux environment, using a virtual machine that mimics setups like Raspberry Pi or dedicated Linux hardware. Here's a breakdown of the process:
 
@@ -441,19 +441,19 @@ To ensure participants gain real-world experience, the practical segment simulat
 
 Understanding basic Linux commands is foundational for managing a Bitcoin node. This section introduces participants to:
 
-- **File and Directory Management**: Using commands like `cd` (change directory), `ls` (list files), `mkdir` (make directory), `cp` (copy files), and `mv` (move files) to navigate and organize the Linux environment.
-- **Administrative Tasks**: Commands such as `sudo` (superuser do) for executing administrative tasks, essential for managing permissions and system configurations.
-- **Advanced Operations**: In-depth commands for user creation, ownership adjustments, and file handling, including `useradd` (add user), `chown` (change ownership), `tar` (archive files), `wget` (download files), `GPG` (GNU Privacy Guard for cryptographic verification), and `SHA-256 SUM` (checksum verification).
+- **File and Directory Management**: using commands like `cd` (change directory), `ls` (list files), `mkdir` (make directory), `cp` (copy files), and `mv` (move files) to navigate and organize the Linux environment.
+- **Administrative Tasks**: commands such as `sudo` (superuser do) for executing administrative tasks, essential for managing permissions and system configurations.
+- **Advanced Operations**: in-depth commands for user creation, ownership adjustments, and file handling, including `useradd` (add user), `chown` (change ownership), `tar` (archive files), `wget` (download files), `GPG` (GNU Privacy Guard for cryptographic verification), and `SHA-256 SUM` (checksum verification).
 
-#### **Node Configuration and Setup**
+#### **Node configuration and setup**
 
 Participants will manually configure their Bitcoin Core node, walking through these critical steps:
 
-1. **User and Directory Setup**: Create a dedicated user for running the Bitcoin node, isolating it from other system processes for added security.
-2. **Data Directory Preparation**: Set up the Bitcoin Core’s data directory, organizing it for optimal performance and future expansion.
-3. **Downloading and Verification**: Securely download Bitcoin Core from the official website and verify its authenticity using cryptographic tools like GPG and SHA-256, ensuring the integrity of the installation package.
-4. **Configuration Adjustments**: Modify the Bitcoin Core configuration file to set up RPC (Remote Procedure Call) authentication, adjust network settings, and define node behavior. These configurations ensure the node operates securely and aligns with best practices.
-5. **System Service Setup**: Configure Bitcoin Core to run as a system service, enabling it to start automatically on boot and ensuring continuous uptime.
+1. **User and Directory Setup**: create a dedicated user for running the Bitcoin node, isolating it from other system processes for added security.
+2. **Data Directory Preparation**: set up the Bitcoin Core’s data directory, organizing it for optimal performance and future expansion.
+3. **Downloading and Verification**: securely download Bitcoin Core from the official website and verify its authenticity using cryptographic tools like GPG and SHA-256, ensuring the integrity of the installation package.
+4. **Configuration Adjustments**: modify the Bitcoin Core configuration file to set up RPC (Remote Procedure Call) authentication, adjust network settings, and define node behavior. These configurations ensure the node operates securely and aligns with best practices.
+5. **System Service Setup**: configure Bitcoin Core to run as a system service, enabling it to start automatically on boot and ensuring continuous uptime.
 
 ### **Integrating Wallets and Multisig Configuration with Specter**
 
