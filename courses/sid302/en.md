@@ -36,7 +36,6 @@ This journey is structured to accommodate participants with varying levels of ex
 # Fundamentals
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
-<chapterId>df252fb8-3271-41d7-971a-d3315b7172e4</chapterId>
 
 ## Liquid Architecture
 

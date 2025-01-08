@@ -1,13 +1,10 @@
 ---
 name: Building with Elements and Liquid Network
-goal: Learn to use and develop with the Elements open-source blockchain platform, including its key features like Confidential Transactions, Issued Assets, and Strong Federations.
+goal: Learn to use and develop with the Elements open-source blockchain platform and its key features
 objectives:
   - Understand the foundational concepts of the Elements blockchain platform and Liquid sidechains.
-  - Explore advanced features such as Confidential Transactions and Issued Assets.
   - Learn to set up and run Elements nodes for standalone and sidechain configurations.
   - Gain practical experience with federated block signing and the Federated 2-Way Peg.
-  - Develop the skills needed to issue, reissue, and destroy assets within the Elements network.
-  - Master the use of Elements CLI tools for blockchain operations.
   - Set up and manage secure, efficient blockchain environments for real-world use cases.
 ---
 
@@ -58,19 +55,19 @@ Built upon and extending Bitcoin’s codebase, it lets developers familiar with 
 
 Some of the main features of Elements are listed next.
 
-### Confidential Transactions
+#### Confidential Transactions
 
 By default, all addresses in Elements are blinded using Confidential Transactions. Blinding is the process by which the amount and type of asset being transferred is cryptographically hidden from everyone, except the participants and those they choose to reveal the blinding key to.
 
-### Issued Assets
+#### Issued Assets
 
 Issued Assets on Elements allows multiple types of asset to be issued and transferred between network participants. An Issued Asset also benefits from Confidential Transactions and can be reissued or destroyed by anyone holding the relevant reissuance token.
 
-### Federated 2-Way Peg
+#### Federated 2-Way Peg
 
 Elements is a general purpose blockchain platform that can also be “pegged” to an existing blockchain (such as Bitcoin) in order to enable the two way transfer of assets from one chain to the other. Implementing Elements as a sidechain allows you to work around some of the inherent properties of the main chain, while retaining a good degree of the security provided by assets secured on the main chain.
 
-### Signed Blocks
+#### Signed Blocks
 
 Elements uses a Strong Federation of signatories, called Block Signers, who sign and create blocks in a reliable and timely manner. This removes the transaction latency of the PoW mining process, which is subject to large block time variance due to its random poisson distribution. The Federated Block Signing process achieves reliable block creation without introducing the need for third party trust or computational ‘algorithm’ based mining.
 
@@ -180,21 +177,14 @@ Settings are either loaded from the designated ‘elements.conf’ file or passe
 
 Some of the things can be changed using these parameters:
 
-The name of the default asset used in a standalone blockchain implementations.
-
-The number of the initial asset created.
-
-The asset to be used when paying transaction fees on the network.
-
-The storage location of the blockchain data files.
-
-The RPC credentials used to connect to a Bitcoin node.
-
-The ‘n of m’ threshold to be met and the valid public keys that can sign blocks.
-
-The script that needs satisfying in order to transfer assets in and out of a sidechain.
-
-Whether to connect to a Bitcoin node as a sidechain or not.
+- The name of the default asset used in a standalone blockchain implementations.
+- The number of the initial asset created.
+- The asset to be used when paying transaction fees on the network.
+- The storage location of the blockchain data files.
+- The RPC credentials used to connect to a Bitcoin node.
+- The ‘n of m’ threshold to be met and the valid public keys that can sign blocks.
+- The script that needs satisfying in order to transfer assets in and out of a sidechain.
+- Whether to connect to a Bitcoin node as a sidechain or not.
 
 Many of these form part of the network’s consensus rules, so it is important that they are applied across all nodes on startup. Some can be changed after a chain has been initialized but some need to be fixed after they are used to initialize a chain.
 
