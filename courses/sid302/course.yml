@@ -4,7 +4,7 @@ level: expert
 hours: 10
 
 professors:
-  - guitar-ostrich
+  - spark-wave
 
 # Proofreading metadata
 original_language: en
@@ -13,4 +13,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 
+    reward:
