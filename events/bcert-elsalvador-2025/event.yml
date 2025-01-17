@@ -1,0 +1,26 @@
+- start_date: 2025-01-30 17:00:00
+  end_date: 2025-01-31 18:00:00
+  timezone: America/El_Salvador
+  address_line_1: Hotel Sheraton Presidente, San Salvador, El Salvador
+  address_line_2: Avenida De La Revolucion, Colonia San Benito
+  address_line_3: UTXO STAGE
+  name: ₿-Cert Exam at Plan ₿ Forum Sv
+  builder: PlanB Network
+  type: exam
+  book_online: false
+  book_in_person: true
+  price_dollars: 0
+  available_seats: 50
+  description: A knowledge-test session about Bitcoin organized in the most importan conference in Bitcoin Country from Plan ₿ Network.
+  language:
+    - en
+    - es
+  links:
+    website:
+    replay_url:
+    live_url:
+  tags:
+    - proof-of-work
+    - onchain
+    - lightning
+    - mastering
