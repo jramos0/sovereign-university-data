@@ -1,0 +1,25 @@
+start_date: "2024-10-21 14:00:00"
+end_date: "2024-10-22 17:00:00"
+timezone: Europe/Rome
+address_line_1: Lugano, Switzerland
+address_line_2:
+address_line_3:
+name: Introduction to Stratum V2 by Alejandro and Filipo
+builder: Plan ₿ Network
+type: Lecture
+book_online: true
+book_in_person: true
+price_dollars: 0
+available_seats: 10
+description: testing
+language:
+  - en
+links:
+  replay_url:
+  live_url: https://www.youtube.com/embed/qEBx1KwYwLg?si=tBEr0yecmJneujxq
+tags:
+  - mining
+  - software
+  - development
+professor: filipo
+course_related: min302
