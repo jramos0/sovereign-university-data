@@ -1,25 +1,26 @@
-- start_date: 2024-10-21 14:00:00
-  end_date: 2024-10-22 17:00:00
+- start_date: 2024-10-10 14:00:00
+  end_date: 2024-10-10 14:00:00
   timezone: Europe/Rome
   address_line_1: Lugano, Switzerland
   address_line_2:
   address_line_3:
-  name: Introduction to Stratum V2 by Alejandro and Filipo
+  name: Introduction to Stratum V2 by Filipo and Alejandro
   builder: Plan ₿ Network
   type: Lecture
-  book_online: true
-  book_in_person: true
-  price_dollars: 0
+  book_online: True
+  book_in_person: True
+  price_dollars: 25
   available_seats: 10
-  description: testing
+  description: An insightful lecture on Stratum V2, highlighting its improvements over Stratum V1, including enhanced miner autonomy, better security with encryption, and streamlined communication protocols for a more decentralized and efficient mining process.
   language:
     - en
   links:
     replay_url:
     live_url: https://www.youtube.com/embed/qEBx1KwYwLg?si=tBEr0yecmJneujxq
+    chat_url:
   tags:
     - mining
-    - software
-    - development
-  professor: filipo
+    - decentralization
+    - protocols
+  professor:
   course_related: min302
