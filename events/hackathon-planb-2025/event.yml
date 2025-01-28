@@ -1,0 +1,17 @@
+- start_date: 2025-01-27 16:00:00
+  end_date: 2025-01-29 23:00:00
+  timezone: America/Guatemala
+  address_line_1: San Salvador, El Salvador
+  name: Hackathon ₿ 2025
+  builder: Plan ₿ Network
+  type: meetup
+  description: 20students are embarking on an exciting journey to build an innovative Lightning wallet.What will they create & Who will take the crown?
+  language:
+    - en
+    - es
+  links:
+    website: https://x.com/planb_network/status/1883862531510542605
+  tags:
+    - development
+    - software
+    - lightning
