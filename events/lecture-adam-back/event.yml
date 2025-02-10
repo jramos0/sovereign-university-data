@@ -1,0 +1,25 @@
+start_date: 2024-11-01 14:00:00
+end_date: 2024-11-01 14:00:00
+timezone: Europe/Rome
+address_line_1: Lugano, Switzerland
+address_line_2:
+address_line_3:
+name: The Past and Future of Bitcoin Tech by Adam Back
+builder: Plan ₿ Network
+type: Lecture
+book_online: True
+book_in_person: True
+price_dollars: 10
+available_seats: 10
+language:
+  - en
+links:
+replay_url:
+live_url: https://www.youtube.com/embed/2Ks8WJUNKyo?si=tBEr0yecmJneujxq
+chat_url:
+tags:
+  - development
+  - future-outlook
+  - innovation
+professor:
+course_related: btc402
